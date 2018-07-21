@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<it.univaq.wsn.sa:SoftwareArchitecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:it.univaq.wsn.sa="http://it.univaq.wsn.sa">
+  <SAElements xsi:type="it.univaq.wsn.sa:Component" name="newComponent">
+    <expr xsi:type="it.univaq.wsn.sa:ArithmeticExpr"/>
+    <expr xsi:type="it.univaq.wsn.sa:BooleanConst"/>
+    <expr xsi:type="it.univaq.wsn.sa:BooleanConst"/>
+    <expr xsi:type="it.univaq.wsn.sa:BooleanExpr"/>
+    <expr xsi:type="it.univaq.wsn.sa:DataRef"/>
+    <expr xsi:type="it.univaq.wsn.sa:EnumConst"/>
+    <expr xsi:type="it.univaq.wsn.sa:IntegerConst"/>
+    <expr xsi:type="it.univaq.wsn.sa:NullExp"/>
+    <expr xsi:type="it.univaq.wsn.sa:RealConst"/>
+    <expr xsi:type="it.univaq.wsn.sa:RelationalExpr"/>
+    <expr xsi:type="it.univaq.wsn.sa:StringConst"/>
+    <expr xsi:type="it.univaq.wsn.sa:StructureConst"/>
+    <ports xsi:type="it.univaq.wsn.sa:InMessagePort"/>
+    <ports xsi:type="it.univaq.wsn.sa:OutMessagePort"/>
+    <modes xsi:type="it.univaq.wsn.sa:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:Actuate"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:BroadcastSendMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:CallAsyncService"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:CallSyncService"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:Choice"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:EnterMode"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:ExitMode"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:Fork"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:Join"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:MulticastSendMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:ReceiveMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:Sense"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:ServiceCallback"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:ServiceCall"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:StartTimer"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:StopTimer"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:CallSyncService"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:TimerFired"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:UnicastSendMessage"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa:ExternalMode" name="newexternalMode"/>
+    <applicationData xsi:type="it.univaq.wsn.sa:Enumeration"/>
+    <applicationData xsi:type="it.univaq.wsn.sa:PrimitiveDataDeclaration"/>
+    <applicationData xsi:type="it.univaq.wsn.sa:StructuredDataDeclaration"/>
+    <applicationData xsi:type="it.univaq.wsn.sa:StructureElement"/>
+    <applicationData xsi:type="it.univaq.wsn.sa:Structure"/>
+  </SAElements>
+  <SAElements xsi:type="it.univaq.wsn.sa:Controller" name="newController">
+    <expr xsi:type="it.univaq.wsn.sa:ArithmeticExpr" name="newArithmeticExpr"/>
+    <expr xsi:type="it.univaq.wsn.sa:BooleanConst" name="newBooleanConst"/>
+    <expr xsi:type="it.univaq.wsn.sa:BooleanExpr" name="newBooleanExpr"/>
+    <expr xsi:type="it.univaq.wsn.sa:DataRef" name="newDataRef"/>
+    <expr xsi:type="it.univaq.wsn.sa:EnumConst" name="newEnumConst"/>
+    <modes xsi:type="it.univaq.wsn.sa:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:Actuate" name="newActuate"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:BroadcastSendMessage" name="newBroadcastSendMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:CallAsyncService" name="neeCallAsyncService"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:CallSyncService" name="newCallSynService"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:Choice" name="newChoice"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa:EnterMode" name="newEnterMode"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa:ExternalMode" name="newexternalMode"/>
+  </SAElements>
+</it.univaq.wsn.sa:SoftwareArchitecture>

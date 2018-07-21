@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<it.univaq.wsn.sa.collorg:SoftwareArchitecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:it.univaq.wsn.sa.collorg="http://it.univaq.wsn.sa.collorg">
+  <SAElements xsi:type="it.univaq.wsn.sa.collorg:Component" name="newComponent">
+    <ports xsi:type="it.univaq.wsn.sa.collorg:OutMessagePort" inmsg="//@SAElements.1/@ports.0"/>
+    <ports xsi:type="it.univaq.wsn.sa.collorg:OutMessagePort" inmsg="//@SAElements.2/@ports.0"/>
+    <modes xsi:type="it.univaq.wsn.sa.collorg:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:ExitMode" targetMode="//@SAElements.0/@modes.1/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" name="sendmsg" toMessagePorts="//@SAElements.0/@ports.0 //@SAElements.0/@ports.1"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:Actuate" name="newActuate"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:Sense" name="newSense"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:CallAsyncService" name="newCallAsyncService"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:CallSyncService" name="newCallSyncService"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:Choice" name="newChoice"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:Fork" name="newFork"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:Join" name="newJoin"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:MulticastSendMessage" name="newMulticastSendMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:ReceiveMessage" name="newReceiveMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:ServiceCallback" name="newServiceCallback"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:ServiceCall" name="newServiceCall"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:StartTimer" name="newStartTimer"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:StopTimer" name="newStopTimer"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:CallSyncService" name="newStoreData"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:CallSyncService" name="newStoreData"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" name="newUnicastSendMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:SenseAccelerometer" name="SenseAccelerometer"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:SensePosition" name="SensePosition"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:TimerFired" name="newTimerFired" inAction="//@SAElements.0/@modes.0/@behaviouralElements.9"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa.collorg:ExternalMode" name="newexternalMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:EnterMode"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa.collorg:InternalController" name="newInternalController"/>
+    <applicationData xsi:type="it.univaq.wsn.sa.collorg:StructuredDataDeclaration" name="newStructureDataDeclaration">
+      <typeExp xsi:type="it.univaq.wsn.sa.collorg:Enumeration" name="newEnumeration"/>
+      <typeExp xsi:type="it.univaq.wsn.sa.collorg:StructureElement" name="newStructureElement"/>
+    </applicationData>
+    <applicationData xsi:type="it.univaq.wsn.sa.collorg:PrimitiveDataDeclaration" name="newPrimitiveDataDeclaration">
+      <valueExp xsi:type="it.univaq.wsn.sa.collorg:BooleanConst" name="newBooleanConst"/>
+      <valueExp xsi:type="it.univaq.wsn.sa.collorg:IntegerConst" name="newIntegerConst"/>
+      <valueExp xsi:type="it.univaq.wsn.sa.collorg:StringConst" name="newStringConst"/>
+      <valueExp xsi:type="it.univaq.wsn.sa.collorg:RealConst" name="newRealConst"/>
+      <valueExp xsi:type="it.univaq.wsn.sa.collorg:StructureConst" name="newStructureConst"/>
+      <valueExp xsi:type="it.univaq.wsn.sa.collorg:EnumConst" name="newEnumConst"/>
+    </applicationData>
+  </SAElements>
+  <SAElements xsi:type="it.univaq.wsn.sa.collorg:Controller" name="newController">
+    <ports xsi:type="it.univaq.wsn.sa.collorg:InMessagePort" rcv_msg="//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+    <modes xsi:type="it.univaq.wsn.sa.collorg:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.collorg:ReceiveMessage"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa.collorg:ExternalMode" name="newexternalMode"/>
+  </SAElements>
+  <SAElements xsi:type="it.univaq.wsn.sa.collorg:SensorController" name="newSensorController">
+    <ports xsi:type="it.univaq.wsn.sa.collorg:InMessagePort"/>
+    <modes xsi:type="it.univaq.wsn.sa.collorg:InitialMode" name="newInitialMode"/>
+  </SAElements>
+  <links name="newLink">
+    <conditionExp xsi:type="it.univaq.wsn.sa.collorg:NullExp" name="newNullExp"/>
+    <conditionExp xsi:type="it.univaq.wsn.sa.collorg:DataRef" name="newDataRef"/>
+    <conditionExp xsi:type="it.univaq.wsn.sa.collorg:StructureMemberRef" name="newStructureMemberRef"/>
+    <conditionExp xsi:type="it.univaq.wsn.sa.collorg:ArithmeticExpr" name="newArithmeticExpr"/>
+    <conditionExp xsi:type="it.univaq.wsn.sa.collorg:BooleanExpr" name="newBooleanExpr"/>
+    <conditionExp xsi:type="it.univaq.wsn.sa.collorg:RelationalExpr" name="newRelationalExpr"/>
+  </links>
+</it.univaq.wsn.sa.collorg:SoftwareArchitecture>

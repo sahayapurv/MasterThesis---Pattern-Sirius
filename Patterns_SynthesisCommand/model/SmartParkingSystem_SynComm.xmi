@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<it.univaq.wsn.sa.syncomm:SoftwareArchitecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:it.univaq.wsn.sa.syncomm="http://it.univaq.wsn.sa.syncomm"
+    xsi:schemaLocation="http://it.univaq.wsn.sa.syncomm SA.ecore"/>

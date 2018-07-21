@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Patterns/src" modelPluginID="Patterns" modelName="SA"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>SA.ecore</foreignModel>
+  <genPackages prefix="Sa" disposableProviderFactory="true" ecorePackage="SA.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SA.ecore#//PrimitiveType">
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//PrimitiveType/integer"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//PrimitiveType/boolean"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//PrimitiveType/real"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//PrimitiveType/string"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SA.ecore#//ArithmeticOp">
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//ArithmeticOp/SUM"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//ArithmeticOp/SUB"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//ArithmeticOp/MULT"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//ArithmeticOp/DIV"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SA.ecore#//BooleanOp">
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//BooleanOp/AND"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//BooleanOp/OR"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//BooleanOp/NOT"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SA.ecore#//RelationalOp">
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//RelationalOp/GREATER"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//RelationalOp/GREATER_EQ"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//RelationalOp/LESS"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//RelationalOp/LESS_EQ"/>
+      <genEnumLiterals ecoreEnumLiteral="SA.ecore#//RelationalOp/NOT_EQUAL"/>
+    </genEnums>
+    <genClasses ecoreClass="SA.ecore#//SoftwareArchitecture">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//SoftwareArchitecture/SAElements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//SoftwareArchitecture/links"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Component">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//Component/hasController"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Controller"/>
+    <genClasses image="false" ecoreClass="SA.ecore#//MessagePort">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//MessagePort/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//InMessagePort">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//InMessagePort/rcv_msg"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//OutMessagePort">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//OutMessagePort/inmsg"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//SAElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//SAElement/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//SAElement/ports"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//SAElement/modes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//SAElement/applicationData"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Mode">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Mode/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//Mode/behaviouralElements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//Mode/entries"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//Mode/exits"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//InitialMode"/>
+    <genClasses ecoreClass="SA.ecore#//ExternalMode"/>
+    <genClasses ecoreClass="SA.ecore#//InternalController"/>
+    <genClasses ecoreClass="SA.ecore#//EnterMode"/>
+    <genClasses ecoreClass="SA.ecore#//ExitMode">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//ExitMode/targetMode"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//BehaviouralElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//BehaviouralElement/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//Action">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//Action/incoming"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//CallAsyncService">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//CallAsyncService/dataExp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//CallAsyncService/data"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//CallSyncService">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//CallSyncService/dataExp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//CallSyncService/data"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//CallSyncService/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StartTimer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//StartTimer/cyclic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//StartTimer/delay"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//StartTimer/period"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StopTimer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//StopTimer/timer"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StoreData">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//StoreData/dataRecipient"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//StoreData/dataExp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//StoreData/data"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//ControlAction"/>
+    <genClasses image="false" ecoreClass="SA.ecore#//SendMessage">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//SendMessage/dataExp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//SendMessage/data"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//SendMessage/toMessagePorts"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//BroadcastSendMessage"/>
+    <genClasses ecoreClass="SA.ecore#//UnicastSendMessage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//UnicastSendMessage/receiverName"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//MulticastSendMessage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//MulticastSendMessage/receiverNames"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Sense">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Sense/dataDeclarationName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Sense/data"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//Sense/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//SensePosition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//SensePosition/dataDeclarationName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//SensePosition/data"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//SensePosition/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//SenseAccelerometer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//SenseAccelerometer/dataDeclarationName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//SenseAccelerometer/data"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//SenseAccelerometer/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Actuate">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//Actuate/dataExp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Actuate/data"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Join"/>
+    <genClasses ecoreClass="SA.ecore#//Fork"/>
+    <genClasses ecoreClass="SA.ecore#//Choice"/>
+    <genClasses image="false" ecoreClass="SA.ecore#//Event"/>
+    <genClasses ecoreClass="SA.ecore#//ServiceCallback">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//ServiceCallback/serviceName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//ServiceCallback/calledService"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//ServiceCallback/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//ServiceCall">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//ServiceCall/serviceName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//ServiceCall/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//ReceiveMessage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//ReceiveMessage/dataRecipientName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//ReceiveMessage/fromMessagePorts"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//ReceiveMessage/dataRecipient"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//TimerFired">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//TimerFired/timerName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//TimerFired/timer"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Link">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//Link/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//Link/target"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//Link/conditionExp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Link/condition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Link/name"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//LinkableElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//LinkableElement/outgoing"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//LinkableElement/inAction"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//DataDeclaration">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//DataDeclaration/dataName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//DataDeclaration/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//DataDeclaration/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//PrimitiveDataDeclaration">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//PrimitiveDataDeclaration/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//PrimitiveDataDeclaration/valueExp"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StructuredDataDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//StructuredDataDeclaration/typeExp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//StructuredDataDeclaration/type"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//StructuredDataType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//StructuredDataType/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Enumeration">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Enumeration/literals"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//Structure">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//Structure/members"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//Constant"/>
+    <genClasses ecoreClass="SA.ecore#//IntegerConst">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//IntegerConst/value"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//BooleanConst">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//BooleanConst/value"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//RealConst">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//RealConst/value"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StringConst">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//StringConst/value"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//EnumConst">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//EnumConst/enumeration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//EnumConst/value"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StructureConst">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//StructureConst/values"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StructureElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//StructureElement/member"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//StructureElement/value"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SA.ecore#//Expression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//Expression/name"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//NullExp"/>
+    <genClasses ecoreClass="SA.ecore#//DataRef">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//DataRef/declaration"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//StructureMemberRef">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//StructureMemberRef/structure"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SA.ecore#//StructureMemberRef/member"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//ArithmeticExpr">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//ArithmeticExpr/leftOperand"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//ArithmeticExpr/rightOperand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//ArithmeticExpr/operator"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//BooleanExpr">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//BooleanExpr/leftOperand"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//BooleanExpr/rightOperand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//BooleanExpr/operator"/>
+    </genClasses>
+    <genClasses ecoreClass="SA.ecore#//RelationalExpr">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//RelationalExpr/leftOperand"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SA.ecore#//RelationalExpr/rightOperand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SA.ecore#//RelationalExpr/operator"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

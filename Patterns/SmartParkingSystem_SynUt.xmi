@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<it.univaq.wsn.sa.synut:SoftwareArchitecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:it.univaq.wsn.sa.synut="http://it.univaq.wsn.sa.synut">
+  <SAElements xsi:type="it.univaq.wsn.sa.synut:Component" name="Car1">
+    <ports xsi:type="it.univaq.wsn.sa.synut:OutMessagePort" inmsg="//@SAElements.3/@ports.0"/>
+    <ports xsi:type="it.univaq.wsn.sa.synut:InMessagePort" rcv_msg="//@SAElements.0/@modes.0/@behaviouralElements.5"/>
+    <modes xsi:type="it.univaq.wsn.sa.synut:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ExitMode" targetMode="//@SAElements.0/@modes.1/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:SenseAccelerometer" name="newSenseAccelerometer" inAction="//@SAElements.0/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:SensePosition" name="newSensePosition" inAction="//@SAElements.0/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" inAction="//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" inAction="//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ReceiveMessage" name="newReceiveMessage"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa.synut:InternalController" name="newInternalController">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:EnterMode" inAction="//@SAElements.0/@modes.1/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ReceiveMessage" name="newReceiveMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" toMessagePorts="//@SAElements.0/@ports.0"/>
+    </modes>
+  </SAElements>
+  <SAElements xsi:type="it.univaq.wsn.sa.synut:Component" name="Car2">
+    <ports xsi:type="it.univaq.wsn.sa.synut:OutMessagePort" inmsg="//@SAElements.3/@ports.0"/>
+    <ports xsi:type="it.univaq.wsn.sa.synut:InMessagePort" rcv_msg="//@SAElements.1/@modes.0/@behaviouralElements.5"/>
+    <modes xsi:type="it.univaq.wsn.sa.synut:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ExitMode" targetMode="//@SAElements.1/@modes.1/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:SenseAccelerometer" name="newSenseAccelerometer" inAction="//@SAElements.1/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:SensePosition" name="newSensePosition" inAction="//@SAElements.1/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" inAction="//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" inAction="//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ReceiveMessage" name="newReceiveMessage"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa.synut:InternalController" name="newInternalController">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:EnterMode" inAction="//@SAElements.1/@modes.1/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ReceiveMessage" name="newReceiveMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" toMessagePorts="//@SAElements.1/@ports.0"/>
+    </modes>
+  </SAElements>
+  <SAElements xsi:type="it.univaq.wsn.sa.synut:Component" name="Car3">
+    <ports xsi:type="it.univaq.wsn.sa.synut:OutMessagePort" inmsg="//@SAElements.3/@ports.0"/>
+    <ports xsi:type="it.univaq.wsn.sa.synut:InMessagePort" rcv_msg="//@SAElements.2/@modes.0/@behaviouralElements.5"/>
+    <modes xsi:type="it.univaq.wsn.sa.synut:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ExitMode" targetMode="//@SAElements.2/@modes.1/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:SenseAccelerometer" name="newSenseAccelerometer" inAction="//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:SensePosition" name="newSensePosition" inAction="//@SAElements.2/@modes.0/@behaviouralElements.4"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" inAction="//@SAElements.2/@modes.0/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" inAction="//@SAElements.2/@modes.0/@behaviouralElements.0"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ReceiveMessage" name="newReceiveMessage"/>
+    </modes>
+    <modes xsi:type="it.univaq.wsn.sa.synut:InternalController" name="newInternalController">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:EnterMode" inAction="//@SAElements.2/@modes.1/@behaviouralElements.1"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ReceiveMessage" name="newReceiveMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:UnicastSendMessage" name="newUnicastSendMessage" toMessagePorts="//@SAElements.2/@ports.0"/>
+    </modes>
+  </SAElements>
+  <SAElements xsi:type="it.univaq.wsn.sa.synut:Controller" name="Database Server">
+    <ports xsi:type="it.univaq.wsn.sa.synut:InMessagePort" rcv_msg="//@SAElements.3/@modes.0/@behaviouralElements.0"/>
+    <ports xsi:type="it.univaq.wsn.sa.synut:OutMessagePort" inmsg="//@SAElements.0/@ports.1 //@SAElements.2/@ports.1 //@SAElements.1/@ports.1"/>
+    <modes xsi:type="it.univaq.wsn.sa.synut:InitialMode" name="newInitialMode">
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:ReceiveMessage" name="newReceiveMessage"/>
+      <behaviouralElements xsi:type="it.univaq.wsn.sa.synut:MulticastSendMessage" name="newMulticastSendMessage" toMessagePorts="//@SAElements.3/@ports.1"/>
+    </modes>
+  </SAElements>
+  <SAElements xsi:type="it.univaq.wsn.sa.synut:Component" name="Car1">
+    <modes xsi:type="it.univaq.wsn.sa.synut:InternalController" name="newInternalController"/>
+  </SAElements>
+</it.univaq.wsn.sa.synut:SoftwareArchitecture>

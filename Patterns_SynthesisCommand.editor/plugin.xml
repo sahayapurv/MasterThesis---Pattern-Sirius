@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated SA -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="sa_SynthesisCommand.presentation.SaModelWizardID"
+            name="%_UI_SaModelWizard_label"
+            class="sa_SynthesisCommand.presentation.SaModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SaModelFile.gif">
+         <description>%_UI_SaModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated SA -->
+      <editor
+            id="sa_SynthesisCommand.presentation.SaEditorID"
+            name="%_UI_SaEditor_label"
+            icon="icons/full/obj16/SaModelFile.gif"
+            extensions="sa"
+            class="sa_SynthesisCommand.presentation.SaEditor"
+            contributorClass="sa_SynthesisCommand.presentation.SaActionBarContributor">
+      </editor>
+   </extension>
+</plugin>

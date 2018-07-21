@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated SA -->
+      <package
+            uri="http://it.univaq.wsn.sa.synut"
+            class="sa_SynthesisUtilize.SaPackage"
+            genModel="model/SA.genmodel"/>
+   </extension>
+
+</plugin>

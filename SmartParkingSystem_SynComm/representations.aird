@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:it.univaq.wsn.sa.syncomm="http://it.univaq.wsn.sa.syncomm" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://it.univaq.wsn.sa.syncomm platform:/resource/Patterns_SynthesisCommand/model/SA.ecore http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_xm7nsIKiEeiJfK5-A2--lw" selectedViews="_1yJD4IKiEeiJfK5-A2--lw" version="12.1.0.201708031200">
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <semanticResources>platform:/resource/Patterns_SynthesisCommand/model/SA.ecore</semanticResources>
+    <semanticResources>SmartParkingSystem_SynComm.xmi</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_1yJD4IKiEeiJfK5-A2--lw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_UowWQIKkEei2D-I_54hj2w" name="new SADiagram_SynComm" repPath="#_UmZl0IKkEei2D-I_54hj2w">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']"/>
+        <target xmi:type="it.univaq.wsn.sa.syncomm:SoftwareArchitecture" href="SmartParkingSystem_SynComm.xmi#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_UomlQIKkEei2D-I_54hj2w" name="new SADiagram_SynComm" uid="_UmZl0IKkEei2D-I_54hj2w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_UomlQYKkEei2D-I_54hj2w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_UomlQoKkEei2D-I_54hj2w"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Up8pEIKkEei2D-I_54hj2w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Up8pEYKkEei2D-I_54hj2w" type="Sirius" element="_UomlQIKkEei2D-I_54hj2w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_hxiU8IKlEei2D-I_54hj2w" type="2002" element="_hxFpAIKlEei2D-I_54hj2w">
+          <children xmi:type="notation:Node" xmi:id="_hxre4IKlEei2D-I_54hj2w" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_hxre4YKlEei2D-I_54hj2w" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_x2_VkIKlEei2D-I_54hj2w" type="3008" element="_x2saoIKlEei2D-I_54hj2w">
+              <children xmi:type="notation:Node" xmi:id="_x2_Vk4KlEei2D-I_54hj2w" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_x2_VlIKlEei2D-I_54hj2w" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_640QgIKnEei2D-I_54hj2w" type="3007" element="_64EpoIKnEei2D-I_54hj2w">
+                  <children xmi:type="notation:Node" xmi:id="_640Qg4KnEei2D-I_54hj2w" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_640QhIKnEei2D-I_54hj2w" x="32" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_64-BgIKnEei2D-I_54hj2w" type="3005" element="_64EpoYKnEei2D-I_54hj2w">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_64-BgYKnEei2D-I_54hj2w" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_64-BgoKnEei2D-I_54hj2w"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_640QgYKnEei2D-I_54hj2w" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_640QgoKnEei2D-I_54hj2w" x="40" y="39" width="31" height="31"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_VML2oIKoEei7Q824tOWAlQ" type="3007" element="_VK2Z4IKoEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_VMVnoIKoEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_VMVnoYKoEei7Q824tOWAlQ" x="47" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_VMVnooKoEei7Q824tOWAlQ" type="3005" element="_VK2Z4YKoEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_VMVno4KoEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VMVnpIKoEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_VML2oYKoEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VML2ooKoEei7Q824tOWAlQ" x="33" y="144" width="46" height="46"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KLryEIKyEei7Q824tOWAlQ" type="3007" element="_KJahMIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_KLsZIIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KLsZIYKyEei7Q824tOWAlQ" x="47" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KLuOUIKyEei7Q824tOWAlQ" type="3005" element="_KJbIQIKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KLuOUYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KLuOUoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KLryEYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KLryEoKyEei7Q824tOWAlQ" x="115" y="69" width="46" height="46"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Nrgu8IKyEei7Q824tOWAlQ" type="3007" element="_NqxvIIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_NrhWAIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_NrhWAYKyEei7Q824tOWAlQ" x="47" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_NrikIIKyEei7Q824tOWAlQ" type="3005" element="_NqyWMIKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_NrikIYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NrikIoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Nrgu8YKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nrgu8oKyEei7Q824tOWAlQ" x="100" y="189" width="46" height="45"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_wPfZAIK1Eei7Q824tOWAlQ" type="3007" element="_wOGR4IK1Eei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_wPgAEIK1Eei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_wPgAEYK1Eei7Q824tOWAlQ" x="-140" y="14"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_wPgnIIK1Eei7Q824tOWAlQ" type="3005" element="_wOGR4YK1Eei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_wPgnIYK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wPgnIoK1Eei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_wPfZAYK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wPfZAoK1Eei7Q824tOWAlQ" x="280" y="114" width="46" height="46"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_x2_VlYKlEei2D-I_54hj2w"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_x2_VloKlEei2D-I_54hj2w"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_x2_VkYKlEei2D-I_54hj2w" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x2_VkoKlEei2D-I_54hj2w" x="10" y="54" width="348" height="272"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_hxre4oKlEei2D-I_54hj2w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_hxre44KlEei2D-I_54hj2w"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6zm_YIKyEei7Q824tOWAlQ" type="3012" element="_6ySJsIKyEei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_6znmcIKyEei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_6znmcYKyEei7Q824tOWAlQ" x="-1" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6zpboIKyEei7Q824tOWAlQ" type="3005" element="_6ySJsYKyEei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_6zpboYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6zpbooKyEei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_6zm_YYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6zm_YoKyEei7Q824tOWAlQ" x="240" y="352" width="16" height="16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bIfxIIK1Eei7Q824tOWAlQ" type="3012" element="_bHIfMIK1Eei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_bIgYMIK1Eei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bIgYMYK1Eei7Q824tOWAlQ" x="-1" y="8"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bIg_QIK1Eei7Q824tOWAlQ" type="3005" element="_bHJGQIK1Eei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_bIg_QYK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bIg_QoK1Eei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_bIfxIYK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bIfxIoK1Eei7Q824tOWAlQ" x="330" y="352" width="16" height="16"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hxiU8YKlEei2D-I_54hj2w" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hxiU8oKlEei2D-I_54hj2w" x="45" y="30" width="393" height="362"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jjmvgIKlEei2D-I_54hj2w" type="2002" element="_jjT0kIKlEei2D-I_54hj2w">
+          <children xmi:type="notation:Node" xmi:id="_jjmvg4KlEei2D-I_54hj2w" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_jjmvhIKlEei2D-I_54hj2w" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_yYx0AIKlEei2D-I_54hj2w" type="3008" element="_yYe5EIKlEei2D-I_54hj2w">
+              <children xmi:type="notation:Node" xmi:id="_yYx0A4KlEei2D-I_54hj2w" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_yYx0BIKlEei2D-I_54hj2w" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_UO_DAIKyEei7Q824tOWAlQ" type="3007" element="_UNo_MIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_UPBfQIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_UPBfQYKyEei7Q824tOWAlQ" x="32" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_UPEikIKyEei7Q824tOWAlQ" type="3005" element="_UNpmQIKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_UPEikYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UPEikoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_UO_DAYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UO_DAoKyEei7Q824tOWAlQ" x="25" y="54" width="31" height="46"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_UmvbsIKyEei7Q824tOWAlQ" type="3007" element="_Ul3R8IKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_UmwCwIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_UmwCwYKyEei7Q824tOWAlQ" x="47" y="14"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_UmyfAIKyEei7Q824tOWAlQ" type="3005" element="_Ul3R8YKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_UmyfAYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UmyfAoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_UmvbsYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UmvbsoKyEei7Q824tOWAlQ" x="25" y="115" width="46" height="46"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_ZHmXwIKyEei7Q824tOWAlQ" type="3007" element="_ZGxRUIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_ZHmXw4KyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ZHmXxIKyEei7Q824tOWAlQ" x="32" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ZHnl4IKyEei7Q824tOWAlQ" type="3005" element="_ZGxRUYKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZHnl4YKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZHnl4oKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ZHmXwYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZHmXwoKyEei7Q824tOWAlQ" x="145" y="84" width="31" height="31"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_aLpOsIKyEei7Q824tOWAlQ" type="3007" element="_aLHDMIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_aLp1wIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_aLp1wYKyEei7Q824tOWAlQ" x="32" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_aLqc0IKyEei7Q824tOWAlQ" type="3005" element="_aLHqQIKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_aLqc0YKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aLqc0oKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_aLpOsYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aLpOsoKyEei7Q824tOWAlQ" x="100" y="190" width="31" height="31"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_6kmLoIK1Eei7Q824tOWAlQ" type="3007" element="_6kIRkIK1Eei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_6kmLo4K1Eei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_6kmLpIK1Eei7Q824tOWAlQ" x="32" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_6kmysIK1Eei7Q824tOWAlQ" type="3005" element="_6kI4oIK1Eei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_6kmysYK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6kmysoK1Eei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_6kmLoYK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6kmLooK1Eei7Q824tOWAlQ" x="10" y="160" width="31" height="31"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_yYx0BYKlEei2D-I_54hj2w"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_yYx0BoKlEei2D-I_54hj2w"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_yYx0AYKlEei2D-I_54hj2w" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yYx0AoKlEei2D-I_54hj2w" x="10" y="53" width="333" height="273"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jjmvhYKlEei2D-I_54hj2w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jjmvhoKlEei2D-I_54hj2w"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8EmGIIKyEei7Q824tOWAlQ" type="3012" element="_8EO5wIKyEei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_8EmtMIKyEei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_8EmtMYKyEei7Q824tOWAlQ" x="-1" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_8EnUQIKyEei7Q824tOWAlQ" type="3005" element="_8EO5wYKyEei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_8EnUQYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EnUQoKyEei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8EmGIYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EmGIoKyEei7Q824tOWAlQ" x="255" y="352" width="16" height="16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_e1ckAIK1Eei7Q824tOWAlQ" type="3012" element="_e1BGMIK1Eei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_e1dLEIK1Eei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_e1dLEYK1Eei7Q824tOWAlQ" x="-1" y="8"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_e1dyIIK1Eei7Q824tOWAlQ" type="3005" element="_e1BGMYK1Eei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_e1dyIYK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e1dyIoK1Eei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_e1ckAYK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e1ckAoK1Eei7Q824tOWAlQ" x="75" y="352" width="16" height="16"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jjmvgYKlEei2D-I_54hj2w" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jjmvgoKlEei2D-I_54hj2w" x="495" y="30" width="378" height="362"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_k2ukQIKlEei2D-I_54hj2w" type="2002" element="_k2bpUIKlEei2D-I_54hj2w">
+          <children xmi:type="notation:Node" xmi:id="_k2ukQ4KlEei2D-I_54hj2w" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_k2ukRIKlEei2D-I_54hj2w" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_yxa9gIKlEei2D-I_54hj2w" type="3008" element="_yxICkIKlEei2D-I_54hj2w">
+              <children xmi:type="notation:Node" xmi:id="_yxa9g4KlEei2D-I_54hj2w" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_yxa9hIKlEei2D-I_54hj2w" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_gJoQEIKyEei7Q824tOWAlQ" type="3007" element="_gJCaMIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_gJo3IIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_gJo3IYKyEei7Q824tOWAlQ" x="32" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_gJqFQIKyEei7Q824tOWAlQ" type="3005" element="_gJDBQIKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_gJqFQYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gJqFQoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_gJoQEYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gJoQEoKyEei7Q824tOWAlQ" x="25" y="40" width="31" height="31"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_hDYikIKyEei7Q824tOWAlQ" type="3007" element="_hDCkUIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_hDZJoIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_hDZJoYKyEei7Q824tOWAlQ" x="47" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_hDaXwIKyEei7Q824tOWAlQ" type="3005" element="_hDCkUYKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_hDaXwYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hDaXwoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_hDYikYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hDYikoKyEei7Q824tOWAlQ" x="40" y="85" width="46" height="46"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_jsiWIIKyEei7Q824tOWAlQ" type="3007" element="_jsKisIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_jsi9MIKyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_jsi9MYKyEei7Q824tOWAlQ" x="32" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_jsjkQIKyEei7Q824tOWAlQ" type="3005" element="_jsKisYKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_jsjkQYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsjkQoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_jsiWIYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsiWIoKyEei7Q824tOWAlQ" x="160" y="55" width="31" height="31"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_k1s9oIKyEei7Q824tOWAlQ" type="3007" element="_k1VKMIKyEei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_k1s9o4KyEei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_k1tksIKyEei7Q824tOWAlQ" x="47" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_k1uLwIKyEei7Q824tOWAlQ" type="3005" element="_k1VKMYKyEei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_k1uLwYKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k1uLwoKyEei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_k1s9oYKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k1s9ooKyEei7Q824tOWAlQ" x="130" y="160" width="46" height="46"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="__u67cIK1Eei7Q824tOWAlQ" type="3007" element="__uQ0IIK1Eei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="__u7igIK1Eei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="__u7igYK1Eei7Q824tOWAlQ" x="47" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="__u8JkIK1Eei7Q824tOWAlQ" type="3005" element="__uQ0IYK1Eei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="__u8JkYK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__u8JkoK1Eei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="__u67cYK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="__u67coK1Eei7Q824tOWAlQ" x="18" y="145" width="46" height="46"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_yxa9hYKlEei2D-I_54hj2w"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_yxa9hoKlEei2D-I_54hj2w"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_yxa9gYKlEei2D-I_54hj2w" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yxa9goKlEei2D-I_54hj2w" x="10" y="53" width="333" height="258"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_k2ukRYKlEei2D-I_54hj2w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_k2ukRoKlEei2D-I_54hj2w"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_85gU4IKyEei7Q824tOWAlQ" type="3012" element="_85FeIIKyEei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_85gU44KyEei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_85gU5IKyEei7Q824tOWAlQ" x="-1" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_85g78IKyEei7Q824tOWAlQ" type="3005" element="_85FeIYKyEei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_85g78YKyEei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_85g78oKyEei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_85gU4YKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_85gU4oKyEei7Q824tOWAlQ" x="240" y="352" width="16" height="16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_m24D0IK1Eei7Q824tOWAlQ" type="3012" element="_m2XGcIK1Eei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_m24D04K1Eei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_m24D1IK1Eei7Q824tOWAlQ" x="-1" y="8"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_m24q4IK1Eei7Q824tOWAlQ" type="3005" element="_m2XtgIK1Eei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_m24q4YK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m24q4oK1Eei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_m24D0YK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m24D0oK1Eei7Q824tOWAlQ" x="60" y="352" width="16" height="16"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_k2ukQYKlEei2D-I_54hj2w" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k2ukQoKlEei2D-I_54hj2w" x="975" y="30" width="363" height="362"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_O3AcQIKzEei7Q824tOWAlQ" type="2002" element="_O1v4AIKzEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_O3BqYIKzEei7Q824tOWAlQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_O3CRcIKzEei7Q824tOWAlQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_fGJH4IK0Eei7Q824tOWAlQ" type="3008" element="_fDomcIK0Eei7Q824tOWAlQ">
+              <children xmi:type="notation:Node" xmi:id="_fGKWAIK0Eei7Q824tOWAlQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_fGK9EIK0Eei7Q824tOWAlQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_ifPKoIK0Eei7Q824tOWAlQ" type="3007" element="_idca4IK0Eei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_ifPKo4K0Eei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ifPKpIK0Eei7Q824tOWAlQ" x="47" y="14"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ifQ_0IK0Eei7Q824tOWAlQ" type="3005" element="_iddB8IK0Eei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ifQ_0YK0Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ifQ_0oK0Eei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ifPKoYK0Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ifPKooK0Eei7Q824tOWAlQ" x="25" y="114" width="46" height="46"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_NQuwEIK1Eei7Q824tOWAlQ" type="3007" element="_NO15sIK1Eei7Q824tOWAlQ">
+                  <children xmi:type="notation:Node" xmi:id="_NQvXIIK1Eei7Q824tOWAlQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_NQvXIYK1Eei7Q824tOWAlQ" x="-177"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_NQwlQIK1Eei7Q824tOWAlQ" type="3005" element="_NO2gwIK1Eei7Q824tOWAlQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_NQwlQYK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NQwlQoK1Eei7Q824tOWAlQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_NQuwEYK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NQuwEoK1Eei7Q824tOWAlQ" x="280" y="69" width="41" height="31"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_fGK9EYK0Eei7Q824tOWAlQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_fGK9EoK0Eei7Q824tOWAlQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fGJH4YK0Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fGJH4oK0Eei7Q824tOWAlQ" x="25" y="39" width="348" height="228"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_O3CRcYKzEei7Q824tOWAlQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_O3CRcoKzEei7Q824tOWAlQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tbWS4IK0Eei7Q824tOWAlQ" type="3012" element="_tapIQIK0Eei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_tbW58IK0Eei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_tbW58YK0Eei7Q824tOWAlQ" x="-1" y="8"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_tbXhAIK0Eei7Q824tOWAlQ" type="3005" element="_tapvUIK0Eei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_tbXhAYK0Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tbXhAoK0Eei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tbWS4YK0Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tbWS4oK0Eei7Q824tOWAlQ" x="105" y="-8" width="16" height="16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Tx-2kIK1Eei7Q824tOWAlQ" type="3012" element="_TwSNcIK1Eei7Q824tOWAlQ">
+            <children xmi:type="notation:Node" xmi:id="_Tx_dooK1Eei7Q824tOWAlQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Tx_do4K1Eei7Q824tOWAlQ" x="-1" y="8"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TyAEsIK1Eei7Q824tOWAlQ" type="3005" element="_TwSNcYK1Eei7Q824tOWAlQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TyAEsYK1Eei7Q824tOWAlQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TyAEsoK1Eei7Q824tOWAlQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Tx_doIK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tx_doYK1Eei7Q824tOWAlQ" x="300" y="-8" width="16" height="16"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_O3AcQYKzEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O3AcQoKzEei7Q824tOWAlQ" x="435" y="525" width="393" height="303"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Up8pEoKkEei2D-I_54hj2w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_QTPmMIKyEei7Q824tOWAlQ" type="4001" element="_QSPgoIKyEei7Q824tOWAlQ" source="_640QgIKnEei2D-I_54hj2w" target="_KLryEIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_QTSCcIKyEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QTSCcYKyEei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_QTT3oIKyEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QTT3oYKyEei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_QTVFwIKyEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QTVFwYKyEei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_QTPmMYKyEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_QTPmMoKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QTPmM4KyEei7Q824tOWAlQ" points="[0, 0, -44, -51]$[44, 51, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QTXiAIKyEei7Q824tOWAlQ" id="(1.0,0.2903225806451613)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QTXiAYKyEei7Q824tOWAlQ" id="(0.0,0.6521739130434783)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_RABMoIKyEei7Q824tOWAlQ" type="4001" element="_Q-0SwIKyEei7Q824tOWAlQ" source="_VML2oIKoEei7Q824tOWAlQ" target="_Nrgu8IKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_RABzsIKyEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RABzsYKyEei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RABzsoKyEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RABzs4KyEei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RABztIKyEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RABztYKyEei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RABMoYKyEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_RABMooKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RABMo4KyEei7Q824tOWAlQ" points="[0, 0, -21, -45]$[21, 45, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RACawIKyEei7Q824tOWAlQ" id="(1.0,0.6521739130434783)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RACawYKyEei7Q824tOWAlQ" id="(0.0,0.6666666666666666)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dLj8cIKyEei7Q824tOWAlQ" type="4001" element="_dLCYAIKyEei7Q824tOWAlQ" source="_UO_DAIKyEei7Q824tOWAlQ" target="_ZHmXwIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_dLkjgIKyEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dLkjgYKyEei7Q824tOWAlQ" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dLkjgoKyEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dLkjg4KyEei7Q824tOWAlQ" x="-3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dLkjhIKyEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dLkjhYKyEei7Q824tOWAlQ" x="-4" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dLj8cYKyEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dLj8coKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dLj8c4KyEei7Q824tOWAlQ" points="[0, 0, -89, -30]$[89, 30, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dLlKkIKyEei7Q824tOWAlQ" id="(1.0,0.5161290322580645)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dLlKkYKyEei7Q824tOWAlQ" id="(0.0,0.5161290322580645)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dyqYsIKyEei7Q824tOWAlQ" type="4001" element="_dyD7wIKyEei7Q824tOWAlQ" source="_UmvbsIKyEei7Q824tOWAlQ" target="_aLpOsIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_dyqYtIKyEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyqYtYKyEei7Q824tOWAlQ" x="-5" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dyqYtoKyEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyqYt4KyEei7Q824tOWAlQ" x="-2" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dyq_wIKyEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyq_wYKyEei7Q824tOWAlQ" x="1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dyqYsYKyEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dyqYsoKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dyqYs4KyEei7Q824tOWAlQ" points="[0, 0, -29, -68]$[29, 68, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyq_woKyEei7Q824tOWAlQ" id="(1.0,0.34782608695652173)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyq_w4KyEei7Q824tOWAlQ" id="(0.0,0.2903225806451613)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_nkMkMIKyEei7Q824tOWAlQ" type="4001" element="_njxtcIKyEei7Q824tOWAlQ" source="_gJoQEIKyEei7Q824tOWAlQ" target="_jsiWIIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_nkNLQIKyEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nkNLQYKyEei7Q824tOWAlQ" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nkNLQoKyEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nkNLQ4KyEei7Q824tOWAlQ" x="-4" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nkNyUIKyEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nkNyUYKyEei7Q824tOWAlQ" x="-10" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nkMkMYKyEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nkMkMoKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nkMkM4KyEei7Q824tOWAlQ" points="[0, 0, -104, -22]$[104, 22, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkNyUoKyEei7Q824tOWAlQ" id="(1.0,0.2903225806451613)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkNyU4KyEei7Q824tOWAlQ" id="(0.0,0.5161290322580645)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_oOvWAIKyEei7Q824tOWAlQ" type="4001" element="_oOQ04IKyEei7Q824tOWAlQ" source="_hDYikIKyEei7Q824tOWAlQ" target="_k1s9oIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_oOv9EIKyEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOv9EYKyEei7Q824tOWAlQ" x="-2" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oOv9EoKyEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOv9E4KyEei7Q824tOWAlQ" x="-4" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oOv9FIKyEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOv9FYKyEei7Q824tOWAlQ" x="-6" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_oOvWAYKyEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_oOvWAoKyEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oOvWA4KyEei7Q824tOWAlQ" points="[0, 0, -44, -75]$[44, 75, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oOv9FoKyEei7Q824tOWAlQ" id="(1.0,0.34782608695652173)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oOwkIIKyEei7Q824tOWAlQ" id="(0.0,0.34782608695652173)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_A_9M4IKzEei7Q824tOWAlQ" type="4001" element="_A-yIMIKzEei7Q824tOWAlQ" source="_Nrgu8IKyEei7Q824tOWAlQ" target="_6zm_YIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_A_9z8IKzEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A_9z8YKzEei7Q824tOWAlQ" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A_9z8oKzEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A_9z84KzEei7Q824tOWAlQ" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A_9z9IKzEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A_9z9YKzEei7Q824tOWAlQ" x="-1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_A_9M4YKzEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_A_9M4oKzEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A_9M44KzEei7Q824tOWAlQ" points="[0, 0, -74, -88]$[74, 88, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A_9z9oKzEei7Q824tOWAlQ" id="(1.0,0.34782608695652173)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A_9z94KzEei7Q824tOWAlQ" id="(0.0,0.4375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CMhGoIKzEei7Q824tOWAlQ" type="4001" element="_CL8e4IKzEei7Q824tOWAlQ" source="_KLryEIKyEei7Q824tOWAlQ" target="_6zm_YIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_CMhGpIKzEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CMhGpYKzEei7Q824tOWAlQ" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CMhGpoKzEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CMhGp4KzEei7Q824tOWAlQ" x="-3" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CMhGqIKzEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CMhGqYKzEei7Q824tOWAlQ" x="-1" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CMhGoYKzEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CMhGooKzEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CMhGo4KzEei7Q824tOWAlQ" points="[0, 0, -75, -178]$[75, 178, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CMhtsIKzEei7Q824tOWAlQ" id="(0.6521739130434783,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CMhtsYKzEei7Q824tOWAlQ" id="(0.0,0.4375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_GBxg8IKzEei7Q824tOWAlQ" type="4001" element="_GBYfYIKzEei7Q824tOWAlQ" source="_aLpOsIKyEei7Q824tOWAlQ" target="_8EmGIIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_GBxg9IKzEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GBxg9YKzEei7Q824tOWAlQ" x="-3" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GBxg9oKzEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GBxg94KzEei7Q824tOWAlQ" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GByIAIKzEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GByIAYKzEei7Q824tOWAlQ" x="-4" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_GBxg8YKzEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_GBxg8oKzEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GBxg84KzEei7Q824tOWAlQ" points="[0, 0, -104, -88]$[104, 88, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GByIAoKzEei7Q824tOWAlQ" id="(1.0,0.5161290322580645)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GByIA4KzEei7Q824tOWAlQ" id="(0.0,0.4375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_G-oKwIKzEei7Q824tOWAlQ" type="4001" element="_G-Le0IKzEei7Q824tOWAlQ" source="_ZHmXwIKyEei7Q824tOWAlQ" target="_8EmGIIKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_G-ox0IKzEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G-ox0YKzEei7Q824tOWAlQ" x="-6" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_G-ox0oKzEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G-ox04KzEei7Q824tOWAlQ" x="-1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_G-ox1IKzEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G-ox1YKzEei7Q824tOWAlQ" x="-2" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_G-oKwYKzEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_G-oKwoKzEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G-oKw4KzEei7Q824tOWAlQ" points="[0, 0, -90, -172]$[90, 172, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G-pY4IKzEei7Q824tOWAlQ" id="(0.4838709677419355,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G-pY4YKzEei7Q824tOWAlQ" id="(0.9375,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IuRjcIKzEei7Q824tOWAlQ" type="4001" element="_It0QcIKzEei7Q824tOWAlQ" source="_k1s9oIKyEei7Q824tOWAlQ" target="_85gU4IKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_IuRjdIKzEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuRjdYKzEei7Q824tOWAlQ" x="-8" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IuRjdoKzEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuRjd4KzEei7Q824tOWAlQ" x="1" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IuRjeIKzEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IuRjeYKzEei7Q824tOWAlQ" x="-2" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IuRjcYKzEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IuRjcoKzEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IuRjc4KzEei7Q824tOWAlQ" points="[0, 0, -83, -81]$[83, 81, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IuSKgIKzEei7Q824tOWAlQ" id="(0.4782608695652174,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IuSKgYKzEei7Q824tOWAlQ" id="(0.9375,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Jr3NEIKzEei7Q824tOWAlQ" type="4001" element="_JrYE4IKzEei7Q824tOWAlQ" source="_jsiWIIKyEei7Q824tOWAlQ" target="_85gU4IKyEei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_Jr30IIKzEei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jr30IYKzEei7Q824tOWAlQ" x="-6" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jr30IoKzEei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jr30I4KzEei7Q824tOWAlQ" x="1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jr30JIKzEei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jr30JYKzEei7Q824tOWAlQ" x="-4" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Jr3NEYKzEei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Jr3NEoKzEei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jr3NE4KzEei7Q824tOWAlQ" points="[0, 0, -60, -201]$[60, 201, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jr30JoKzEei7Q824tOWAlQ" id="(0.4838709677419355,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jr30J4KzEei7Q824tOWAlQ" id="(0.9375,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vx4scIK0Eei7Q824tOWAlQ" type="4001" element="_vwkd0IK0Eei7Q824tOWAlQ" source="_8EmGIIKyEei7Q824tOWAlQ" target="_tbWS4IK0Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_vx5TgIK0Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vx5TgYK0Eei7Q824tOWAlQ" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vx5TgoK0Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vx5Tg4K0Eei7Q824tOWAlQ" x="-2" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vx5ThIK0Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vx5ThYK0Eei7Q824tOWAlQ" x="-1" y="12"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vx4scYK0Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vx4scoK0Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vx4sc4K0Eei7Q824tOWAlQ" points="[0, 0, 195, -128]$[-195, 128, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vx56kIK0Eei7Q824tOWAlQ" id="(0.0,0.4375)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vx56kYK0Eei7Q824tOWAlQ" id="(0.9375,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_xgm4EIK0Eei7Q824tOWAlQ" type="4001" element="_xgC3YIK0Eei7Q824tOWAlQ" source="_6zm_YIKyEei7Q824tOWAlQ" target="_tbWS4IK0Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_xgnfIIK0Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xgnfIYK0Eei7Q824tOWAlQ" x="-4" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xgnfIoK0Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xgnfI4K0Eei7Q824tOWAlQ" x="1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xgnfJIK0Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xgnfJYK0Eei7Q824tOWAlQ" x="1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_xgm4EYK0Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_xgm4EoK0Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xgm4E4K0Eei7Q824tOWAlQ" points="[0, 0, -239, -135]$[239, 135, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xgoGMIK0Eei7Q824tOWAlQ" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xgoGMYK0Eei7Q824tOWAlQ" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zihsgIK0Eei7Q824tOWAlQ" type="4001" element="_zh4zUIK0Eei7Q824tOWAlQ" source="_85gU4IKyEei7Q824tOWAlQ" target="_tbWS4IK0Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_ziiTkIK0Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ziiTkYK0Eei7Q824tOWAlQ" x="3" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ziiTkoK0Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ziiTk4K0Eei7Q824tOWAlQ" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ziiTlIK0Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ziiTlYK0Eei7Q824tOWAlQ" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zihsgYK0Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zihsgoK0Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zihsg4K0Eei7Q824tOWAlQ" points="[0, 0, 659, -135]$[-659, 135, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ziiTloK0Eei7Q824tOWAlQ" id="(0.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ziiTl4K0Eei7Q824tOWAlQ" id="(1.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_4JWGoIK0Eei7Q824tOWAlQ" type="4001" element="_4IJMwIK0Eei7Q824tOWAlQ" source="_tbWS4IK0Eei7Q824tOWAlQ" target="_ifPKoIK0Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_4JWtsIK0Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JWtsYK0Eei7Q824tOWAlQ" x="-2" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4JXUwIK0Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JXUwYK0Eei7Q824tOWAlQ" x="3" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4JXUwoK0Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4JXUw4K0Eei7Q824tOWAlQ" x="1" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4JWGoYK0Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4JWGooK0Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4JWGo4K0Eei7Q824tOWAlQ" points="[-2, 8, 36, -157]$[-38, 165, 0, 0]"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4JX70YK0Eei7Q824tOWAlQ" id="(0.32608695652173914,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_U3ZmgIK1Eei7Q824tOWAlQ" type="4001" element="_U181AIK1Eei7Q824tOWAlQ" source="_NQuwEIK1Eei7Q824tOWAlQ" target="_Tx-2kIK1Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_U3aNkIK1Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U3aNkYK1Eei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_U3aNkoK1Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U3aNk4K1Eei7Q824tOWAlQ" x="1" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_U3aNlIK1Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U3aNlYK1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_U3ZmgYK1Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_U3ZmgoK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U3Zmg4K1Eei7Q824tOWAlQ" points="[0, 0, 22, 120]$[-21, -114, 1, 6]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U3a0oIK1Eei7Q824tOWAlQ" id="(0.36585365853658536,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rVYPcIK1Eei7Q824tOWAlQ" type="4001" element="_rUjJAIK1Eei7Q824tOWAlQ" source="_Tx-2kIK1Eei7Q824tOWAlQ" target="_m24D0IK1Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_rVYPdIK1Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rVYPdYK1Eei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rVYPdoK1Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rVYPd4K1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rVYPeIK1Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rVYPeYK1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rVYPcYK1Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rVYPcoK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rVYPc4K1Eei7Q824tOWAlQ" points="[0, 0, -284, 136]$[284, -136, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rVY2gIK1Eei7Q824tOWAlQ" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rVY2gYK1Eei7Q824tOWAlQ" id="(0.0,0.4375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_sj1moIK1Eei7Q824tOWAlQ" type="4001" element="_sjS0EIK1Eei7Q824tOWAlQ" source="_Tx-2kIK1Eei7Q824tOWAlQ" target="_e1ckAIK1Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_sj1mpIK1Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sj1mpYK1Eei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sj2NsIK1Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sj2NsYK1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sj2NsoK1Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sj2Ns4K1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_sj1moYK1Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_sj1mooK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sj1mo4K1Eei7Q824tOWAlQ" points="[0, 0, 149, 135]$[-149, -135, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sj2NtIK1Eei7Q824tOWAlQ" id="(0.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sj2NtYK1Eei7Q824tOWAlQ" id="(1.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_uS04AIK1Eei7Q824tOWAlQ" type="4001" element="_uSL-0IK1Eei7Q824tOWAlQ" source="_Tx-2kIK1Eei7Q824tOWAlQ" target="_bIfxIIK1Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_uS1fEIK1Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uS1fEYK1Eei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uS1fEoK1Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uS1fE4K1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uS2tMIK1Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uS2tMYK1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_uS04AYK1Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_uS04AoK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uS04A4K1Eei7Q824tOWAlQ" points="[0, 0, 344, 136]$[-344, -136, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uS2tMoK1Eei7Q824tOWAlQ" id="(0.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uS2tM4K1Eei7Q824tOWAlQ" id="(1.0,0.4375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1Lc8sIK1Eei7Q824tOWAlQ" type="4001" element="_1Kq5kIK1Eei7Q824tOWAlQ" source="_bIfxIIK1Eei7Q824tOWAlQ" target="_wPfZAIK1Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_1LdjwIK1Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1LdjwYK1Eei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1LdjwoK1Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Ldjw4K1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1LdjxIK1Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1LdjxYK1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1Lc8sYK1Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1Lc8soK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1Lc8s4K1Eei7Q824tOWAlQ" points="[0, -7, 0, 126]$[0, -133, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1LdjxoK1Eei7Q824tOWAlQ" id="(0.0,0.4375)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1LeK0IK1Eei7Q824tOWAlQ" id="(0.6521739130434783,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_-EOUMIK1Eei7Q824tOWAlQ" type="4001" element="_-DrhoIK1Eei7Q824tOWAlQ" source="_e1ckAIK1Eei7Q824tOWAlQ" target="_6kmLoIK1Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_-EO7QIK1Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-EO7QYK1Eei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-EO7QoK1Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-EO7Q4K1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-EPiUIK1Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-EPiUYK1Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_-EOUMYK1Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-EOUMoK1Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-EOUM4K1Eei7Q824tOWAlQ" points="[0, 0, 30, 103]$[-30, -103, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-EPiUoK1Eei7Q824tOWAlQ" id="(0.0,0.4375)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-EPiU4K1Eei7Q824tOWAlQ" id="(0.4838709677419355,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CErR4IK2Eei7Q824tOWAlQ" type="4001" element="_CD-uUIK2Eei7Q824tOWAlQ" source="_m24D0IK1Eei7Q824tOWAlQ" target="__u67cIK1Eei7Q824tOWAlQ">
+          <children xmi:type="notation:Node" xmi:id="_CErR5IK2Eei7Q824tOWAlQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CErR5YK2Eei7Q824tOWAlQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CErR5oK2Eei7Q824tOWAlQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CErR54K2Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CEr48IK2Eei7Q824tOWAlQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CEr48YK2Eei7Q824tOWAlQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CErR4YK2Eei7Q824tOWAlQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CErR4oK2Eei7Q824tOWAlQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CErR44K2Eei7Q824tOWAlQ" points="[0, 0, 15, 96]$[-15, -96, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CEr48oK2Eei7Q824tOWAlQ" id="(0.9375,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CEr484K2Eei7Q824tOWAlQ" id="(0.4782608695652174,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_hxFpAIKlEei2D-I_54hj2w" name="Car1">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:Component" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:Component" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_6ySJsIKyEei7Q824tOWAlQ" outgoingEdges="_xgC3YIK0Eei7Q824tOWAlQ" incomingEdges="_A-yIMIKzEei7Q824tOWAlQ _CL8e4IKzEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@ports.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@ports.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_6ySJsYKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/OutMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_bHIfMIK1Eei7Q824tOWAlQ" outgoingEdges="_1Kq5kIK1Eei7Q824tOWAlQ" incomingEdges="_uSL-0IK1Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@ports.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@ports.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_bHJGQIK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/InMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='InMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='InMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_hxFpAYKlEei2D-I_54hj2w" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_x2saoIKlEei2D-I_54hj2w" name="newInitialMode">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_x2saoYKlEei2D-I_54hj2w" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_64EpoIKnEei2D-I_54hj2w" name="newSensePosition" outgoingEdges="_QSPgoIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_64EpoYKnEei2D-I_54hj2w" workspacePath="/Patterns_SynthesisCommand.design/sa icons/PositionSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_VK2Z4IKoEei7Q824tOWAlQ" name="newSenseAccelerometer" outgoingEdges="_Q-0SwIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_VK2Z4YKoEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/AccelerometerSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KJahMIKyEei7Q824tOWAlQ" name="newUnicastSendMessage" outgoingEdges="_CL8e4IKzEei7Q824tOWAlQ" incomingEdges="_QSPgoIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.2"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_KJbIQIKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NqxvIIKyEei7Q824tOWAlQ" name="newUnicastSendMessage" outgoingEdges="_A-yIMIKzEei7Q824tOWAlQ" incomingEdges="_Q-0SwIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.3"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.3"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_NqyWMIKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_wOGR4IK1Eei7Q824tOWAlQ" name="newReceiveMessage" incomingEdges="_1Kq5kIK1Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.4"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.4"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_wOGR4YK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/ReceiveMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_jjT0kIKlEei2D-I_54hj2w" name="Car2">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:Component" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:Component" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_8EO5wIKyEei7Q824tOWAlQ" outgoingEdges="_vwkd0IK0Eei7Q824tOWAlQ" incomingEdges="_GBYfYIKzEei7Q824tOWAlQ _G-Le0IKzEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@ports.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@ports.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_8EO5wYKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/OutMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_e1BGMIK1Eei7Q824tOWAlQ" outgoingEdges="_-DrhoIK1Eei7Q824tOWAlQ" incomingEdges="_sjS0EIK1Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@ports.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@ports.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_e1BGMYK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/InMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='InMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='InMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_jjT0kYKlEei2D-I_54hj2w" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_yYe5EIKlEei2D-I_54hj2w" name="newInitialMode">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_yYe5EYKlEei2D-I_54hj2w" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_UNo_MIKyEei7Q824tOWAlQ" name="newSensePosition" outgoingEdges="_dLCYAIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_UNpmQIKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/PositionSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Ul3R8IKyEei7Q824tOWAlQ" name="newSenseAccelerometer" outgoingEdges="_dyD7wIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.1"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_Ul3R8YKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/AccelerometerSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ZGxRUIKyEei7Q824tOWAlQ" name="newUnicastSendMessage" outgoingEdges="_G-Le0IKzEei7Q824tOWAlQ" incomingEdges="_dLCYAIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.2"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ZGxRUYKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aLHDMIKyEei7Q824tOWAlQ" name="newUnicastSendMessage" outgoingEdges="_GBYfYIKzEei7Q824tOWAlQ" incomingEdges="_dyD7wIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.3"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_aLHqQIKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_6kIRkIK1Eei7Q824tOWAlQ" name="newReceiveMessage" incomingEdges="_-DrhoIK1Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.4"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.4"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_6kI4oIK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/ReceiveMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_k2bpUIKlEei2D-I_54hj2w" name="Car3">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:Component" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:Component" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_85FeIIKyEei7Q824tOWAlQ" outgoingEdges="_zh4zUIK0Eei7Q824tOWAlQ" incomingEdges="_It0QcIKzEei7Q824tOWAlQ _JrYE4IKzEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@ports.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@ports.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_85FeIYKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/OutMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_m2XGcIK1Eei7Q824tOWAlQ" outgoingEdges="_CD-uUIK2Eei7Q824tOWAlQ" incomingEdges="_rUjJAIK1Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@ports.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@ports.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_m2XtgIK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/InMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='InMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='InMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_k2bpUYKlEei2D-I_54hj2w" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_yxICkIKlEei2D-I_54hj2w" name="newInitialMode">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_yxICkYKlEei2D-I_54hj2w" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gJCaMIKyEei7Q824tOWAlQ" name="newSensePosition" outgoingEdges="_njxtcIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_gJDBQIKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/PositionSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hDCkUIKyEei7Q824tOWAlQ" name="newSenseAccelerometer" outgoingEdges="_oOQ04IKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.1"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_hDCkUYKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/AccelerometerSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jsKisIKyEei7Q824tOWAlQ" name="newUnicastSendMessage" outgoingEdges="_JrYE4IKzEei7Q824tOWAlQ" incomingEdges="_njxtcIKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.2"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jsKisYKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_k1VKMIKyEei7Q824tOWAlQ" name="newUnicastSendMessage" outgoingEdges="_It0QcIKzEei7Q824tOWAlQ" incomingEdges="_oOQ04IKyEei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_k1VKMYKyEei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="__uQ0IIK1Eei7Q824tOWAlQ" name="newReceiveMessage" incomingEdges="_CD-uUIK2Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.4"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.4"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="__uQ0IYK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/ReceiveMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_QSPgoIKyEei7Q824tOWAlQ" sourceNode="_64EpoIKnEei2D-I_54hj2w" targetNode="_KJahMIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_QSVAMIKyEei7Q824tOWAlQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_QSVAMYKyEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Q-0SwIKyEei7Q824tOWAlQ" sourceNode="_VK2Z4IKoEei7Q824tOWAlQ" targetNode="_NqxvIIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Q-0SwYKyEei7Q824tOWAlQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Q-0SwoKyEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dLCYAIKyEei7Q824tOWAlQ" sourceNode="_UNo_MIKyEei7Q824tOWAlQ" targetNode="_ZGxRUIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dLC_EIKyEei7Q824tOWAlQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dLC_EYKyEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dyD7wIKyEei7Q824tOWAlQ" sourceNode="_Ul3R8IKyEei7Q824tOWAlQ" targetNode="_aLHDMIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dyD7wYKyEei7Q824tOWAlQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dyD7woKyEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_njxtcIKyEei7Q824tOWAlQ" sourceNode="_gJCaMIKyEei7Q824tOWAlQ" targetNode="_jsKisIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:SensePosition" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_njxtcYKyEei7Q824tOWAlQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_njxtcoKyEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_oOQ04IKyEei7Q824tOWAlQ" sourceNode="_hDCkUIKyEei7Q824tOWAlQ" targetNode="_k1VKMIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:SenseAccelerometer" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_oORb8IKyEei7Q824tOWAlQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_oORb8YKyEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_A-yIMIKzEei7Q824tOWAlQ" sourceNode="_NqxvIIKyEei7Q824tOWAlQ" targetNode="_6ySJsIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_A-yIMYKzEei7Q824tOWAlQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_A-yIMoKzEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_CL8e4IKzEei7Q824tOWAlQ" sourceNode="_KJahMIKyEei7Q824tOWAlQ" targetNode="_6ySJsIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@modes.0/@behaviouralElements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_CL8e4YKzEei7Q824tOWAlQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_CL8e4oKzEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_GBYfYIKzEei7Q824tOWAlQ" sourceNode="_aLHDMIKyEei7Q824tOWAlQ" targetNode="_8EO5wIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_GBZGcIKzEei7Q824tOWAlQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_GBZGcYKzEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_G-Le0IKzEei7Q824tOWAlQ" sourceNode="_ZGxRUIKyEei7Q824tOWAlQ" targetNode="_8EO5wIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@modes.0/@behaviouralElements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_G-MF4IKzEei7Q824tOWAlQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_G-MF4YKzEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_It0QcIKzEei7Q824tOWAlQ" sourceNode="_k1VKMIKyEei7Q824tOWAlQ" targetNode="_85FeIIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_It0QcYKzEei7Q824tOWAlQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_It0QcoKzEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_JrYE4IKzEei7Q824tOWAlQ" sourceNode="_jsKisIKyEei7Q824tOWAlQ" targetNode="_85FeIIKyEei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:UnicastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@modes.0/@behaviouralElements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JrYE4YKzEei7Q824tOWAlQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JrYE4oKzEei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_O1v4AIKzEei7Q824tOWAlQ" name="DatabaseServer">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:Controller" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:Controller" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_tapIQIK0Eei7Q824tOWAlQ" outgoingEdges="_4IJMwIK0Eei7Q824tOWAlQ" incomingEdges="_vwkd0IK0Eei7Q824tOWAlQ _xgC3YIK0Eei7Q824tOWAlQ _zh4zUIK0Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_tapvUIK0Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/InMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@borderedNodeMappings[name='InMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@borderedNodeMappings[name='InMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_TwSNcIK1Eei7Q824tOWAlQ" outgoingEdges="_rUjJAIK1Eei7Q824tOWAlQ _sjS0EIK1Eei7Q824tOWAlQ _uSL-0IK1Eei7Q824tOWAlQ" incomingEdges="_U181AIK1Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TwSNcYK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/OutMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@borderedNodeMappings[name='OutMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@borderedNodeMappings[name='OutMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_O1wfEIKzEei7Q824tOWAlQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="253,206,137">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_fDomcIK0Eei7Q824tOWAlQ" name="newInitialMode">
+        <target xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@modes.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:InitialMode" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@modes.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_fDomcYK0Eei7Q824tOWAlQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_idca4IK0Eei7Q824tOWAlQ" name="newReceiveMessage" incomingEdges="_4IJMwIK0Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@modes.0/@behaviouralElements.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:ReceiveMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@modes.0/@behaviouralElements.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_iddB8IK0Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/ReceiveMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NO15sIK1Eei7Q824tOWAlQ" name="newMulticastSendMessage" outgoingEdges="_U181AIK1Eei7Q824tOWAlQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.syncomm:MulticastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@modes.0/@behaviouralElements.1"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.syncomm:MulticastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@modes.0/@behaviouralElements.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_NO2gwIK1Eei7Q824tOWAlQ" workspacePath="/Patterns_SynthesisCommand.design/sa icons/MulticastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='MulticastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='MulticastSendMessageNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_vwkd0IK0Eei7Q824tOWAlQ" sourceNode="_8EO5wIKyEei7Q824tOWAlQ" targetNode="_tapIQIK0Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@ports.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_vwkd0YK0Eei7Q824tOWAlQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_vwkd0oK0Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_xgC3YIK0Eei7Q824tOWAlQ" sourceNode="_6ySJsIKyEei7Q824tOWAlQ" targetNode="_tapIQIK0Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@ports.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_xgDecIK0Eei7Q824tOWAlQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_xgDecYK0Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zh4zUIK0Eei7Q824tOWAlQ" sourceNode="_85FeIIKyEei7Q824tOWAlQ" targetNode="_tapIQIK0Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@ports.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zh4zUYK0Eei7Q824tOWAlQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zh4zUoK0Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_4IJMwIK0Eei7Q824tOWAlQ" sourceNode="_tapIQIK0Eei7Q824tOWAlQ" targetNode="_idca4IK0Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_4IJMwYK0Eei7Q824tOWAlQ" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_4IJMwoK0Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_U181AIK1Eei7Q824tOWAlQ" sourceNode="_NO15sIK1Eei7Q824tOWAlQ" targetNode="_TwSNcIK1Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:MulticastSendMessage" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@modes.0/@behaviouralElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_U181AYK1Eei7Q824tOWAlQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_U181AoK1Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_rUjJAIK1Eei7Q824tOWAlQ" sourceNode="_TwSNcIK1Eei7Q824tOWAlQ" targetNode="_m2XGcIK1Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_rUjJAYK1Eei7Q824tOWAlQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_rUjJAoK1Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sjS0EIK1Eei7Q824tOWAlQ" sourceNode="_TwSNcIK1Eei7Q824tOWAlQ" targetNode="_e1BGMIK1Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_sjTbIIK1Eei7Q824tOWAlQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_sjTbIYK1Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_uSL-0IK1Eei7Q824tOWAlQ" sourceNode="_TwSNcIK1Eei7Q824tOWAlQ" targetNode="_bHIfMIK1Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:OutMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.3/@ports.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_uSMl4IK1Eei7Q824tOWAlQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_uSMl4YK1Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1Kq5kIK1Eei7Q824tOWAlQ" sourceNode="_bHIfMIK1Eei7Q824tOWAlQ" targetNode="_wOGR4IK1Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.0/@ports.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1Kq5kYK1Eei7Q824tOWAlQ" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1Kq5koK1Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-DrhoIK1Eei7Q824tOWAlQ" sourceNode="_e1BGMIK1Eei7Q824tOWAlQ" targetNode="_6kIRkIK1Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.1/@ports.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-DsIsIK1Eei7Q824tOWAlQ" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-DsIsYK1Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_CD-uUIK2Eei7Q824tOWAlQ" sourceNode="_m2XGcIK1Eei7Q824tOWAlQ" targetNode="__uQ0IIK1Eei7Q824tOWAlQ">
+      <target xmi:type="it.univaq.wsn.sa.syncomm:InMessagePort" href="SmartParkingSystem_SynComm.xmi#//@SAElements.2/@ports.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_CD-uUYK2Eei7Q824tOWAlQ" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_CD-uUoK2Eei7Q824tOWAlQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_UomlRIKkEei2D-I_54hj2w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/Patterns_SynthesisCommand.design/description/Patterns_SynthesisCommand.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer"/>
+    <target xmi:type="it.univaq.wsn.sa.syncomm:SoftwareArchitecture" href="SmartParkingSystem_SynComm.xmi#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

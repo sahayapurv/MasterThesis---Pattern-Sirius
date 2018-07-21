@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:it.univaq.wsn.sa.collorg="http://it.univaq.wsn.sa.collorg" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://it.univaq.wsn.sa.collorg platform:/resource/Patterns_CollectOrganize/model/SA.ecore http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_vyULgH0oEei5XI6YYn6UyQ" selectedViews="_0-PoYH0pEei5XI6YYn6UyQ" version="12.1.0.201708031200">
+    <semanticResources>platform:/resource/Patterns_CollectOrganize/model/SA.ecore</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <semanticResources>SoftwareArchitecture.xmi</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_0-PoYH0pEei5XI6YYn6UyQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_p9T0IIFTEei_45w8CLKxjQ" name="new SADiagram_CollOrg" repPath="#_pgU9MIFTEei_45w8CLKxjQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']"/>
+        <target xmi:type="it.univaq.wsn.sa.collorg:SoftwareArchitecture" href="SoftwareArchitecture.xmi#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_2VK_EH0pEei5XI6YYn6UyQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_2VUwEH0pEei5XI6YYn6UyQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Archetype']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_p9NtgIFTEei_45w8CLKxjQ" name="new SADiagram_CollOrg" uid="_pgU9MIFTEei_45w8CLKxjQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_p9NtgYFTEei_45w8CLKxjQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_p9NtgoFTEei_45w8CLKxjQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_p-PBMIFTEei_45w8CLKxjQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_p-PBMYFTEei_45w8CLKxjQ" type="Sirius" element="_p9NtgIFTEei_45w8CLKxjQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_p-k_cIFTEei_45w8CLKxjQ" type="2002" element="_p9NthIFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_p-zB4IFTEei_45w8CLKxjQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_p-0QAIFTEei_45w8CLKxjQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_p_5OEIFTEei_45w8CLKxjQ" type="3008" element="_p9NtioFTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_p_6cMIFTEei_45w8CLKxjQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_p_7DQIFTEei_45w8CLKxjQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_p_7DQYFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_p_7DQoFTEei_45w8CLKxjQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_p_5OEYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_5OEoFTEei_45w8CLKxjQ" x="25" y="26"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_p_7qUIFTEei_45w8CLKxjQ" type="3008" element="_p9NtjIFTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_p_9fgIFTEei_45w8CLKxjQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_p_9fgYFTEei_45w8CLKxjQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_qAKT0IFTEei_45w8CLKxjQ" type="3007" element="_p9NtkIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qALh8IFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qALh8YFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBUKYIFTEei_45w8CLKxjQ" type="3005" element="_p9NtkYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBUxcIFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBUxcYFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAKT0YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAKT0oFTEei_45w8CLKxjQ" x="31" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAN-MIFTEei_45w8CLKxjQ" type="3007" element="_p9NtkoFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAOlQIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAOlQYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBUxcoFTEei_45w8CLKxjQ" type="3005" element="_p9Ntk4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBUxc4FTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBUxdIFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAN-MYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAN-MoFTEei_45w8CLKxjQ" x="76" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAUr4IFTEei_45w8CLKxjQ" type="3007" element="_p9NtlIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAV6AIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAV6AYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBVYgIFTEei_45w8CLKxjQ" type="3005" element="_p9NtlYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBVYgYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBVYgoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAUr4YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAUr4oFTEei_45w8CLKxjQ" x="145" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAWhEIFTEei_45w8CLKxjQ" type="3007" element="_p9NtloFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAXIIIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAXIIYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBV_kIFTEei_45w8CLKxjQ" type="3005" element="_p9Ntl4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBV_kYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBV_koFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAWhEYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAWhEoFTEei_45w8CLKxjQ" x="235" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAXvMIFTEei_45w8CLKxjQ" type="3007" element="_p9NtmIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAYWQIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAYWQYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBWmoIFTEei_45w8CLKxjQ" type="3005" element="_p9NtmYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBWmoYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBWmooFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAXvMYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAXvMoFTEei_45w8CLKxjQ" x="310" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAcAoIFTEei_45w8CLKxjQ" type="3007" element="_p9NtmoFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAcnsIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAcnsYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBXNsIFTEei_45w8CLKxjQ" type="3005" element="_p9Ntm4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBXNsYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBXNsoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAcAoYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAcAooFTEei_45w8CLKxjQ" x="385" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAfD8IFTEei_45w8CLKxjQ" type="3007" element="_p9NtnIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAfrAIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAfrAYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBXNs4FTEei_45w8CLKxjQ" type="3005" element="_p9NtnYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBXNtIFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBXNtYFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAfD8YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAfD8oFTEei_45w8CLKxjQ" x="460" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAjVYIFTEei_45w8CLKxjQ" type="3007" element="_p9NtnoFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAjVY4FTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAjVZIFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBYb0IFTEei_45w8CLKxjQ" type="3005" element="_p9Ntn4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBYb0YFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBYb0oFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAjVYYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAjVYoFTEei_45w8CLKxjQ" x="535" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAkjgIFTEei_45w8CLKxjQ" type="3007" element="_p9NtoIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAlKkIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAlKkYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBYb04FTEei_45w8CLKxjQ" type="3005" element="_p9NtoYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBYb1IFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBYb1YFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAkjgYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAkjgoFTEei_45w8CLKxjQ" x="1375" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qAnm0IFTEei_45w8CLKxjQ" type="3007" element="_p9OUkIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qAoN4IFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qAoN4YFTEei_45w8CLKxjQ" x="17" y="-3"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBZC4IFTEei_45w8CLKxjQ" type="3005" element="_p9OUkYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBZC4YFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBZC4oFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qAnm0YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAnm0oFTEei_45w8CLKxjQ" x="612" y="31" width="16" height="13"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qA1pQIFTEei_45w8CLKxjQ" type="3007" element="_p9OUkoFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qA2QUIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qA2QUYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBZp8IFTEei_45w8CLKxjQ" type="3005" element="_p9OUk4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBZp8YFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBZp8oFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qA1pQYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qA1pQoFTEei_45w8CLKxjQ" x="687" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qA4skIFTEei_45w8CLKxjQ" type="3007" element="_p9OUlIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qA5ToIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qA5ToYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBaRAIFTEei_45w8CLKxjQ" type="3005" element="_p9OUlYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBaRAYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBaRAoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qA4skYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qA4skoFTEei_45w8CLKxjQ" x="760" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qA8W8IFTEei_45w8CLKxjQ" type="3007" element="_p9OUloFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qA9lEIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qA9lEYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBa4EIFTEei_45w8CLKxjQ" type="3005" element="_p9OUl4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBa4EYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBa4EoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qA8W8YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qA8W8oFTEei_45w8CLKxjQ" x="835" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBAoYIFTEei_45w8CLKxjQ" type="3007" element="_p9OUmIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBBPcIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBBPcYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBa4E4FTEei_45w8CLKxjQ" type="3005" element="_p9OUmYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBbfIIFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBbfIYFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBAoYYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBAoYoFTEei_45w8CLKxjQ" x="916" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBDEoIFTEei_45w8CLKxjQ" type="3007" element="_p9OUmoFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBESwIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBESwYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBbfIoFTEei_45w8CLKxjQ" type="3005" element="_p9OUm4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBbfI4FTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBbfJIFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBDEoYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBDEooFTEei_45w8CLKxjQ" x="991" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBGvAIFTEei_45w8CLKxjQ" type="3007" element="_p9OUnIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBHWEIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBHWEYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBctQIFTEei_45w8CLKxjQ" type="3005" element="_p9OUnYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBctQYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBctQoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBGvAYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBGvAoFTEei_45w8CLKxjQ" x="1066" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBJLQIFTEei_45w8CLKxjQ" type="3007" element="_p9OUnoFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBJyUIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBJyUYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBdUUIFTEei_45w8CLKxjQ" type="3005" element="_p9OUn4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBdUUYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBdUUoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBJLQYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBJLQoFTEei_45w8CLKxjQ" x="1141" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBMOkIFTEei_45w8CLKxjQ" type="3007" element="_p9OUoIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBM1oIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBM1oYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBd7YIFTEei_45w8CLKxjQ" type="3005" element="_p9OUoYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBd7YYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBd7YoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBMOkYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBMOkoFTEei_45w8CLKxjQ" x="1375" y="70" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBPR4IFTEei_45w8CLKxjQ" type="3007" element="_p9OUooFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBPR44FTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBPR5IFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBeicIFTEei_45w8CLKxjQ" type="3005" element="_p9OUo4FTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBeicYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBeicoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBPR4YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBPR4oFTEei_45w8CLKxjQ" x="1216" y="28" width="16" height="16"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBRuIIFTEei_45w8CLKxjQ" type="3007" element="_p9OUpIFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBSVMIFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBSVMYFTEei_45w8CLKxjQ" x="17" y="-2"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBfJgIFTEei_45w8CLKxjQ" type="3005" element="_p9OUpYFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBfJgYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBfJgoFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBRuIYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBRuIoFTEei_45w8CLKxjQ" x="1285" y="28" width="16" height="16"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_p_9fgoFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_p_9fg4FTEei_45w8CLKxjQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qAE0Q4FTEei_45w8CLKxjQ" type="3012" element="_p9NtjYFTEei_45w8CLKxjQ">
+                <children xmi:type="notation:Node" xmi:id="_qAFbUIFTEei_45w8CLKxjQ" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qAFbUYFTEei_45w8CLKxjQ" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBfwkIFTEei_45w8CLKxjQ" type="3005" element="_p9NtjoFTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBfwkYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBfwkoFTEei_45w8CLKxjQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_qAE0RIFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAE0RYFTEei_45w8CLKxjQ" x="15" y="-8" width="16" height="16"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_p_7qUYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_7qUoFTEei_45w8CLKxjQ" x="655" y="128" height="259"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_p_-GkIFTEei_45w8CLKxjQ" type="3008" element="_p9OUpoFTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_p_-toIFTEei_45w8CLKxjQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_p__7wIFTEei_45w8CLKxjQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_p__7wYFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_p__7woFTEei_45w8CLKxjQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qBfwk4FTEei_45w8CLKxjQ" type="3012" element="_p9OUp4FTEei_45w8CLKxjQ">
+                <children xmi:type="notation:Node" xmi:id="_qBgXoIFTEei_45w8CLKxjQ" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBgXoYFTEei_45w8CLKxjQ" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBiz4IFTEei_45w8CLKxjQ" type="3005" element="_p9OUqIFTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBiz4YFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBiz4oFTEei_45w8CLKxjQ"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_qBfwlIFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBfwlYFTEei_45w8CLKxjQ" x="-8" y="13" width="16" height="16"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_p_-GkYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_-GkoFTEei_45w8CLKxjQ" x="1371" y="26"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qABJ4IFTEei_45w8CLKxjQ" type="3009" element="_p9OUqoFTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_qACYAIFTEei_45w8CLKxjQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_qAC_EIFTEei_45w8CLKxjQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_qBkCAIFTEei_45w8CLKxjQ" type="3010" element="_p9OUrIFTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBkCAYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBkCAoFTEei_45w8CLKxjQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBlQIIFTEei_45w8CLKxjQ" type="3010" element="_p9OUroFTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBlQIYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBlQIoFTEei_45w8CLKxjQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_qADmIIFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_qADmIYFTEei_45w8CLKxjQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qABw8IFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qABw8YFTEei_45w8CLKxjQ" x="205" y="26"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qADmIoFTEei_45w8CLKxjQ" type="3009" element="_p9OUsIFTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_qAENMIFTEei_45w8CLKxjQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_qAE0QIFTEei_45w8CLKxjQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_qBl3MIFTEei_45w8CLKxjQ" type="3010" element="_p9OUs4FTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBl3MYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBl3MoFTEei_45w8CLKxjQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBl3M4FTEei_45w8CLKxjQ" type="3010" element="_p9OUtYFTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBl3NIFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBl3NYFTEei_45w8CLKxjQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBmeQIFTEei_45w8CLKxjQ" type="3010" element="_p9OUt4FTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBmeQYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBmeQoFTEei_45w8CLKxjQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBnFUIFTEei_45w8CLKxjQ" type="3010" element="_p9OUuYFTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBnFUYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBnFUoFTEei_45w8CLKxjQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBnFU4FTEei_45w8CLKxjQ" type="3010" element="_p9OUu4FTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBnFVIFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBnFVYFTEei_45w8CLKxjQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qBnsYIFTEei_45w8CLKxjQ" type="3010" element="_p9OUvYFTEei_45w8CLKxjQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_qBnsYYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_qBnsYoFTEei_45w8CLKxjQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_qAE0QYFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_qAE0QoFTEei_45w8CLKxjQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qADmI4FTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qADmJIFTEei_45w8CLKxjQ" x="460" y="26"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_p-0QAYFTEei_45w8CLKxjQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_p-0QAoFTEei_45w8CLKxjQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_p_JAIIFTEei_45w8CLKxjQ" type="3012" element="_p9NthYFTEei_45w8CLKxjQ">
+            <children xmi:type="notation:Node" xmi:id="_p_PGwIFTEei_45w8CLKxjQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_p_PGwYFTEei_45w8CLKxjQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBoTcIFTEei_45w8CLKxjQ" type="3005" element="_p9NthoFTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qBoTcYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBoTcoFTEei_45w8CLKxjQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_p_JAIYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_JAIoFTEei_45w8CLKxjQ" x="-8" width="16" height="16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_p_2x0IFTEei_45w8CLKxjQ" type="3012" element="_p9Nth4FTEei_45w8CLKxjQ">
+            <children xmi:type="notation:Node" xmi:id="_p_3Y4IFTEei_45w8CLKxjQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_p_3Y4YFTEei_45w8CLKxjQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBoTc4FTEei_45w8CLKxjQ" type="3005" element="_p9NtiIFTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qBoTdIFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBoTdYFTEei_45w8CLKxjQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_p_2x0YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_2x0oFTEei_45w8CLKxjQ" x="-8" y="30" width="16" height="16"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_p-k_cYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p-k_coFTEei_45w8CLKxjQ" x="210" y="165" height="423"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p-8y4IFTEei_45w8CLKxjQ" type="2002" element="_p9OUv4FTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_p--BAIFTEei_45w8CLKxjQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_p--BAYFTEei_45w8CLKxjQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_qBqvsIFTEei_45w8CLKxjQ" type="3008" element="_p9OUw4FTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_qBrWwIFTEei_45w8CLKxjQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_qBrWwYFTEei_45w8CLKxjQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_qBsk4IFTEei_45w8CLKxjQ" type="3007" element="_p9OUxYFTEei_45w8CLKxjQ">
+                  <children xmi:type="notation:Node" xmi:id="_qBtL8IFTEei_45w8CLKxjQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qBtL8YFTEei_45w8CLKxjQ" x="-1"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qBtL8oFTEei_45w8CLKxjQ" type="3005" element="_p9OUxoFTEei_45w8CLKxjQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qBtzAIFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBtzAYFTEei_45w8CLKxjQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qBsk4YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBsk4oFTEei_45w8CLKxjQ" x="25" y="24" width="16" height="16"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_qBrWwoFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_qBrWw4FTEei_45w8CLKxjQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qBqvsYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBqvsoFTEei_45w8CLKxjQ" x="30" y="24"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBr90IFTEei_45w8CLKxjQ" type="3008" element="_p9OUx4FTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_qBr904FTEei_45w8CLKxjQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_qBr91IFTEei_45w8CLKxjQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_qBr91YFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_qBr91oFTEei_45w8CLKxjQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qBr90YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBr90oFTEei_45w8CLKxjQ" x="210" y="24"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_p--BAoFTEei_45w8CLKxjQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_p--BA4FTEei_45w8CLKxjQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qBo6gIFTEei_45w8CLKxjQ" type="3012" element="_p9OUwIFTEei_45w8CLKxjQ">
+            <children xmi:type="notation:Node" xmi:id="_qBphkIFTEei_45w8CLKxjQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qBphkYFTEei_45w8CLKxjQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBtzAoFTEei_45w8CLKxjQ" type="3005" element="_p9OUwYFTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qBtzA4FTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBtzBIFTEei_45w8CLKxjQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qBo6gYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBo6goFTEei_45w8CLKxjQ" x="-8" width="16" height="16"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_p-8y4YFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p-8y4oFTEei_45w8CLKxjQ" x="1000"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p--oEIFTEei_45w8CLKxjQ" type="2002" element="_p9OUyYFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_p-_PIIFTEei_45w8CLKxjQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_p-_PIYFTEei_45w8CLKxjQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_qBvoMIFTEei_45w8CLKxjQ" type="3008" element="_p9OUzYFTEei_45w8CLKxjQ">
+              <children xmi:type="notation:Node" xmi:id="_qBwPQIFTEei_45w8CLKxjQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_qBwPQYFTEei_45w8CLKxjQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_qBwPQoFTEei_45w8CLKxjQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_qBwPQ4FTEei_45w8CLKxjQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qBvoMYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBvoMoFTEei_45w8CLKxjQ" x="25" y="24"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_p-_PIoFTEei_45w8CLKxjQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_p-_PI4FTEei_45w8CLKxjQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qBuaEIFTEei_45w8CLKxjQ" type="3012" element="_p9OUyoFTEei_45w8CLKxjQ">
+            <children xmi:type="notation:Node" xmi:id="_qBvBIIFTEei_45w8CLKxjQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qBvBIYFTEei_45w8CLKxjQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBwPRIFTEei_45w8CLKxjQ" type="3005" element="_p9OUy4FTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qBwPRYFTEei_45w8CLKxjQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBwPRoFTEei_45w8CLKxjQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qBuaEYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qBuaEoFTEei_45w8CLKxjQ" x="-8" y="15" width="16" height="16"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_p--oEYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p--oEoFTEei_45w8CLKxjQ" x="1455"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p_AdQIFTEei_45w8CLKxjQ" type="2003" element="_p9OUz4FTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_p_FVwIFTEei_45w8CLKxjQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_p_Gj4IFTEei_45w8CLKxjQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_qBw2UIFTEei_45w8CLKxjQ" type="3010" element="_p9OU0YFTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qBw2UYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qBw2UoFTEei_45w8CLKxjQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBxdYIFTEei_45w8CLKxjQ" type="3010" element="_p9OU04FTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qBxdYYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qBxdYoFTEei_45w8CLKxjQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBxdY4FTEei_45w8CLKxjQ" type="3010" element="_p9OU1YFTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qBxdZIFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qBxdZYFTEei_45w8CLKxjQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qByEcIFTEei_45w8CLKxjQ" type="3010" element="_p9OU14FTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qByEcYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qByEcoFTEei_45w8CLKxjQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qByrgIFTEei_45w8CLKxjQ" type="3010" element="_p9OU2YFTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qByrgYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qByrgoFTEei_45w8CLKxjQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qBzSkIFTEei_45w8CLKxjQ" type="3010" element="_p9OU24FTEei_45w8CLKxjQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qBzSkYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qBzSkoFTEei_45w8CLKxjQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_p_Gj4YFTEei_45w8CLKxjQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_p_Gj4oFTEei_45w8CLKxjQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_p_AdQYFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_AdQoFTEei_45w8CLKxjQ"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_p-PBMoFTEei_45w8CLKxjQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_qCcy0IFTEei_45w8CLKxjQ" type="4001" element="_p9OU3YFTEei_45w8CLKxjQ" source="_qBMOkIFTEei_45w8CLKxjQ" target="_qAkjgIFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_qCeoAIFTEei_45w8CLKxjQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qCeoAYFTEei_45w8CLKxjQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qCfPEIFTEei_45w8CLKxjQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qCfPEYFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qCgdMIFTEei_45w8CLKxjQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qCgdMYFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qCcy0YFTEei_45w8CLKxjQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qCcy0oFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qCcy04FTEei_45w8CLKxjQ" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC1NUIFTEei_45w8CLKxjQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC10YIFTEei_45w8CLKxjQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qC2bcIFTEei_45w8CLKxjQ" type="4001" element="_p9OU4IFTEei_45w8CLKxjQ" source="_p_JAIIFTEei_45w8CLKxjQ" target="_qBo6gIFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_qC2bdIFTEei_45w8CLKxjQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC2bdYFTEei_45w8CLKxjQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC2bdoFTEei_45w8CLKxjQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC2bd4FTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC3CgIFTEei_45w8CLKxjQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC3CgYFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qC2bcYFTEei_45w8CLKxjQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qC2bcoFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qC2bc4FTEei_45w8CLKxjQ" points="[900, -65, 256, 97]$[1074, -5, 430, 157]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC3CgoFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC3Cg4FTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qC3pkIFTEei_45w8CLKxjQ" type="4001" element="_p9OU44FTEei_45w8CLKxjQ" source="_p_2x0IFTEei_45w8CLKxjQ" target="_qBuaEIFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_qC3plIFTEei_45w8CLKxjQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC3plYFTEei_45w8CLKxjQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC3ploFTEei_45w8CLKxjQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC3pl4FTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC3pmIFTEei_45w8CLKxjQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC4QoIFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qC3pkYFTEei_45w8CLKxjQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qC3pkoFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qC3pk4FTEei_45w8CLKxjQ" points="[0, 0, 1155, -187]$[-1155, 187, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC5ewIFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC5ewYFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qC5ewoFTEei_45w8CLKxjQ" type="4001" element="_p9OU5oFTEei_45w8CLKxjQ" source="_qAE0Q4FTEei_45w8CLKxjQ" target="_qBfwk4FTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_qC5exoFTEei_45w8CLKxjQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC5ex4FTEei_45w8CLKxjQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC6F0IFTEei_45w8CLKxjQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC6F0YFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC6F0oFTEei_45w8CLKxjQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC6F04FTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qC5ew4FTEei_45w8CLKxjQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qC5exIFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qC5exYFTEei_45w8CLKxjQ" points="[0, 0, -700, 88]$[700, -88, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC6s4IFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC6s4YFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qC6s4oFTEei_45w8CLKxjQ" type="4001" element="_p9OU6YFTEei_45w8CLKxjQ" source="_qBo6gIFTEei_45w8CLKxjQ" target="_qBsk4IFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_qC6s5oFTEei_45w8CLKxjQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC6s54FTEei_45w8CLKxjQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC6s6IFTEei_45w8CLKxjQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC6s6YFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC7T8IFTEei_45w8CLKxjQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC7T8YFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qC6s44FTEei_45w8CLKxjQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qC6s5IFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qC6s5YFTEei_45w8CLKxjQ" points="[8, 0, 0, 0]$[0, 0, -8, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC7T8oFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC7T84FTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qC77AIFTEei_45w8CLKxjQ" type="4001" element="_p9OU7IFTEei_45w8CLKxjQ" source="_qAfD8IFTEei_45w8CLKxjQ" target="_p_JAIIFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_qC77BIFTEei_45w8CLKxjQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC77BYFTEei_45w8CLKxjQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC77BoFTEei_45w8CLKxjQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC77B4FTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC8iEIFTEei_45w8CLKxjQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC8iEYFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qC77AYFTEei_45w8CLKxjQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qC77AoFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qC77A4FTEei_45w8CLKxjQ" points="[-8, 0, 0, 0]$[0, 0, 8, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC9JIIFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC9JIYFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qC9JIoFTEei_45w8CLKxjQ" type="4001" element="_p9OU74FTEei_45w8CLKxjQ" source="_qAfD8IFTEei_45w8CLKxjQ" target="_p_2x0IFTEei_45w8CLKxjQ">
+          <children xmi:type="notation:Node" xmi:id="_qC9wMIFTEei_45w8CLKxjQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC9wMYFTEei_45w8CLKxjQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC9wMoFTEei_45w8CLKxjQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC9wM4FTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qC-XQIFTEei_45w8CLKxjQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qC-XQYFTEei_45w8CLKxjQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qC9JI4FTEei_45w8CLKxjQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qC9JJIFTEei_45w8CLKxjQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qC9JJYFTEei_45w8CLKxjQ" points="[-4, 8, 4, -9]$[-5, 9, 3, -8]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC--UIFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qC--UYFTEei_45w8CLKxjQ" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9NthIFTEei_45w8CLKxjQ" name="newComponent">
+      <target xmi:type="it.univaq.wsn.sa.collorg:Component" href="SoftwareArchitecture.xmi#//@SAElements.0"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Component" href="SoftwareArchitecture.xmi#//@SAElements.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_p9NthYFTEei_45w8CLKxjQ" outgoingEdges="_p9OU4IFTEei_45w8CLKxjQ" incomingEdges="_p9OU7IFTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.collorg:OutMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.0/@ports.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:OutMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.0/@ports.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NthoFTEei_45w8CLKxjQ" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/OutMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_p9Nth4FTEei_45w8CLKxjQ" outgoingEdges="_p9OU44FTEei_45w8CLKxjQ" incomingEdges="_p9OU74FTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.collorg:OutMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.0/@ports.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:OutMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.0/@ports.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NtiIFTEei_45w8CLKxjQ" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/OutMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='OutMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9NtiYFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="204,242,166">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9NtioFTEei_45w8CLKxjQ" name="newInternalController">
+        <target xmi:type="it.univaq.wsn.sa.collorg:InternalController" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.2"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:InternalController" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9Nti4FTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InternalControllerNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InternalControllerNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9NtjIFTEei_45w8CLKxjQ" name="newInitialMode">
+        <target xmi:type="it.univaq.wsn.sa.collorg:InitialMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:InitialMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_p9NtjYFTEei_45w8CLKxjQ" outgoingEdges="_p9OU5oFTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:ExitMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ExitMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NtjoFTEei_45w8CLKxjQ" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/ExitMode.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@borderedNodeMappings[name='ExitModeNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@borderedNodeMappings[name='ExitModeNode']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9Ntj4FTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtkIFTEei_45w8CLKxjQ" name="newCallAsyncService" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:CallAsyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.4"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:CallAsyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.4"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NtkYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/CallAsyncService.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallAsyncServiceNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallAsyncServiceNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtkoFTEei_45w8CLKxjQ" name="newCallSyncService" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:CallSyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.5"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:CallSyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.5"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9Ntk4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/CallSyncService.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallSyncServiceNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallSyncServiceNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtlIFTEei_45w8CLKxjQ" name="newStoreData" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:CallSyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.15"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:CallSyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.15"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NtlYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/CallSyncService.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallSyncServiceNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallSyncServiceNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtloFTEei_45w8CLKxjQ" name="newStoreData" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:CallSyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.16"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:CallSyncService" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.16"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9Ntl4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/CallSyncService.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallSyncServiceNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='CallSyncServiceNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtmIFTEei_45w8CLKxjQ" name="newStartTimer" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:StartTimer" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.13"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:StartTimer" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.13"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NtmYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/StartTimer.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='StartTimerNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='StartTimerNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtmoFTEei_45w8CLKxjQ" name="newStopTimer" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:StopTimer" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.14"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:StopTimer" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.14"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9Ntm4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/StopTimer.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='StopTimerNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='StopTimerNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtnIFTEei_45w8CLKxjQ" name="sendmsg" outgoingEdges="_p9OU7IFTEei_45w8CLKxjQ _p9OU74FTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NtnYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtnoFTEei_45w8CLKxjQ" name="newUnicastSendMessage" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.17"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.17"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9Ntn4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/UnicastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='UnicastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9NtoIFTEei_45w8CLKxjQ" name="newMulticastSendMessage" incomingEdges="_p9OU3YFTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:MulticastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.9"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:MulticastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.9"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9NtoYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/MulticastSendMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='MulticastSendMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='MulticastSendMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUkIFTEei_45w8CLKxjQ" name="newSense" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:Sense" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.3"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Sense" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.3"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUkYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/Sense.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUkoFTEei_45w8CLKxjQ" name="newActuate" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:Actuate" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.2"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Actuate" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.2"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUk4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/Actuate.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ActuateNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ActuateNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUlIFTEei_45w8CLKxjQ" name="newJoin" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:Join" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.8"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Join" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.8"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUlYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/Join.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='JoinNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='JoinNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUloFTEei_45w8CLKxjQ" name="newFork" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:Fork" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.7"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Fork" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.7"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUl4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/Fork.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ForkNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ForkNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUmIFTEei_45w8CLKxjQ" name="newChoice" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:Choice" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.6"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Choice" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.6"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUmYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/Choice.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ChoiceNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ChoiceNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUmoFTEei_45w8CLKxjQ" name="newServiceCallback" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:ServiceCallback" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.11"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ServiceCallback" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.11"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUm4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/ServiceCallback.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ServiceCallbackNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ServiceCallbackNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUnIFTEei_45w8CLKxjQ" name="newServiceCall" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:ServiceCall" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.12"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ServiceCall" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.12"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUnYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/ServiceCall.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ServiceCallNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ServiceCallNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUnoFTEei_45w8CLKxjQ" name="newReceiveMessage" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:ReceiveMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.10"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ReceiveMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.10"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUn4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/ReceiveMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUoIFTEei_45w8CLKxjQ" name="newTimerFired" outgoingEdges="_p9OU3YFTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:TimerFired" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.20"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:TimerFired" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.20"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUoYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/TimerFired.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='TimerFiredNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='TimerFiredNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUooFTEei_45w8CLKxjQ" name="SensePosition" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:SensePosition" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.19"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:SensePosition" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.19"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUo4FTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/PositionSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SensePositionNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUpIFTEei_45w8CLKxjQ" name="SenseAccelerometer" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:SenseAccelerometer" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.18"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:SenseAccelerometer" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.18"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUpYFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/AccelerometerSensor.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='SenseAccelerometerNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9OUpoFTEei_45w8CLKxjQ" name="newexternalMode">
+        <target xmi:type="it.univaq.wsn.sa.collorg:ExternalMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ExternalMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_p9OUp4FTEei_45w8CLKxjQ" incomingEdges="_p9OU5oFTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:EnterMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.1/@behaviouralElements.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:EnterMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.1/@behaviouralElements.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUqIFTEei_45w8CLKxjQ" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/EnterMode.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ExternalModeContainer']/@borderedNodeMappings[name='EnterModeNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ExternalModeContainer']/@borderedNodeMappings[name='EnterModeNode']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUqYFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="246,139,139">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ExternalModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ExternalModeContainer']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_p9OUqoFTEei_45w8CLKxjQ" name="newStructureDataDeclaration">
+        <target xmi:type="it.univaq.wsn.sa.collorg:StructuredDataDeclaration" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:StructuredDataDeclaration" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUq4FTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="233,185,110">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='StructureDataDeclarationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='StructureDataDeclarationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUrIFTEei_45w8CLKxjQ" name="newEnumeration">
+          <target xmi:type="it.univaq.wsn.sa.collorg:Enumeration" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.0/@typeExp.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Enumeration" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.0/@typeExp.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUrYFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/enumeration1.jpg">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='StructureDataDeclarationContainer']/@subNodeMappings[name='EnumerationNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='StructureDataDeclarationContainer']/@subNodeMappings[name='EnumerationNode']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUroFTEei_45w8CLKxjQ" name="newStructureElement">
+          <target xmi:type="it.univaq.wsn.sa.collorg:StructureElement" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.0/@typeExp.1"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:StructureElement" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.0/@typeExp.1"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUr4FTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/structural element.png">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='StructureDataDeclarationContainer']/@subNodeMappings[name='StructureElementNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='StructureDataDeclarationContainer']/@subNodeMappings[name='StructureElementNode']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_p9OUsIFTEei_45w8CLKxjQ" name="newPrimitiveDataDeclaration">
+        <target xmi:type="it.univaq.wsn.sa.collorg:PrimitiveDataDeclaration" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:PrimitiveDataDeclaration" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_p9OUsYFTEei_45w8CLKxjQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUsoFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="224,133,3">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUs4FTEei_45w8CLKxjQ" name="newIntegerConst">
+          <target xmi:type="it.univaq.wsn.sa.collorg:IntegerConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.1"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:IntegerConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.1"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OUtIFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="217,196,215">
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='IntegerConstNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='IntegerConstNode']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUtYFTEei_45w8CLKxjQ" name="newBooleanConst">
+          <target xmi:type="it.univaq.wsn.sa.collorg:BooleanConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:BooleanConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.0"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OUtoFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="253,206,137">
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='BooleanConstNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='BooleanConstNode']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUt4FTEei_45w8CLKxjQ" name="newRealConst">
+          <target xmi:type="it.univaq.wsn.sa.collorg:RealConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.3"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:RealConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.3"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OUuIFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='RealConstNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='RealConstNode']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUuYFTEei_45w8CLKxjQ" name="newStringConst">
+          <target xmi:type="it.univaq.wsn.sa.collorg:StringConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.2"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:StringConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.2"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OUuoFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="209,209,209">
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='StringConstNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='StringConstNode']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUu4FTEei_45w8CLKxjQ" name="newEnumConst">
+          <target xmi:type="it.univaq.wsn.sa.collorg:EnumConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.5"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:EnumConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.5"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OUvIFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="238,201,142">
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='EnumConstNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='EnumConstNode']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OUvYFTEei_45w8CLKxjQ" name="newStructureConst">
+          <target xmi:type="it.univaq.wsn.sa.collorg:StructureConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.4"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:StructureConst" href="SoftwareArchitecture.xmi#//@SAElements.0/@applicationData.1/@valueExp.4"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OUvoFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="194,239,255">
+            <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='StructureConstNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='PrimitiveDataDeclarationContainer']/@subNodeMappings[name='StructureConstNode']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9OUv4FTEei_45w8CLKxjQ" name="newController">
+      <target xmi:type="it.univaq.wsn.sa.collorg:Controller" href="SoftwareArchitecture.xmi#//@SAElements.1"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Controller" href="SoftwareArchitecture.xmi#//@SAElements.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_p9OUwIFTEei_45w8CLKxjQ" outgoingEdges="_p9OU6YFTEei_45w8CLKxjQ" incomingEdges="_p9OU4IFTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.collorg:InMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.1/@ports.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:InMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.1/@ports.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUwYFTEei_45w8CLKxjQ" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/InMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@borderedNodeMappings[name='InMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@borderedNodeMappings[name='InMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUwoFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9OUw4FTEei_45w8CLKxjQ" name="newInitialMode">
+        <target xmi:type="it.univaq.wsn.sa.collorg:InitialMode" href="SoftwareArchitecture.xmi#//@SAElements.1/@modes.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:InitialMode" href="SoftwareArchitecture.xmi#//@SAElements.1/@modes.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUxIFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_p9OUxYFTEei_45w8CLKxjQ" incomingEdges="_p9OU6YFTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="it.univaq.wsn.sa.collorg:ReceiveMessage" href="SoftwareArchitecture.xmi#//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+          <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ReceiveMessage" href="SoftwareArchitecture.xmi#//@SAElements.1/@modes.0/@behaviouralElements.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUxoFTEei_45w8CLKxjQ" workspacePath="/Patterns_CollectOrganize.design/sa icons/ReceiveMessage.gif">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@subNodeMappings[name='ReceiveMessageNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9OUx4FTEei_45w8CLKxjQ" name="newexternalMode">
+        <target xmi:type="it.univaq.wsn.sa.collorg:ExternalMode" href="SoftwareArchitecture.xmi#//@SAElements.1/@modes.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ExternalMode" href="SoftwareArchitecture.xmi#//@SAElements.1/@modes.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUyIFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="246,139,139">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='ExternalModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='ControllerContainer']/@subContainerMappings[name='ExternalModeContainer']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9OUyYFTEei_45w8CLKxjQ" name="newSensorController">
+      <target xmi:type="it.univaq.wsn.sa.collorg:SensorController" href="SoftwareArchitecture.xmi#//@SAElements.2"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.collorg:SensorController" href="SoftwareArchitecture.xmi#//@SAElements.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_p9OUyoFTEei_45w8CLKxjQ" incomingEdges="_p9OU44FTEei_45w8CLKxjQ" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="it.univaq.wsn.sa.collorg:InMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.2/@ports.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:InMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.2/@ports.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_p9OUy4FTEei_45w8CLKxjQ" labelPosition="node" workspacePath="/Patterns_CollectOrganize.design/sa icons/InMessagePort.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='SensorControllerContainer']/@borderedNodeMappings[name='InMessagePortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='SensorControllerContainer']/@borderedNodeMappings[name='InMessagePortNode']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUzIFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="252,233,79">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='SensorControllerContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='SensorControllerContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_p9OUzYFTEei_45w8CLKxjQ" name="newInitialMode">
+        <target xmi:type="it.univaq.wsn.sa.collorg:InitialMode" href="SoftwareArchitecture.xmi#//@SAElements.2/@modes.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:InitialMode" href="SoftwareArchitecture.xmi#//@SAElements.2/@modes.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OUzoFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='SensorControllerContainer']/@subContainerMappings[name='InitiaModeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='SensorControllerContainer']/@subContainerMappings[name='InitiaModeContainer']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_p9OUz4FTEei_45w8CLKxjQ" name="newLink">
+      <target xmi:type="it.univaq.wsn.sa.collorg:Link" href="SoftwareArchitecture.xmi#//@links.0"/>
+      <semanticElements xmi:type="it.univaq.wsn.sa.collorg:Link" href="SoftwareArchitecture.xmi#//@links.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_p9OU0IFTEei_45w8CLKxjQ" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OU0YFTEei_45w8CLKxjQ" name="newNullExp">
+        <target xmi:type="it.univaq.wsn.sa.collorg:NullExp" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.0"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:NullExp" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.0"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OU0oFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="239,41,41">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='NullExpNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='NullExpNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OU04FTEei_45w8CLKxjQ" name="newDataRef">
+        <target xmi:type="it.univaq.wsn.sa.collorg:DataRef" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.1"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:DataRef" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.1"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OU1IFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="173,127,168">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='DataRefNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='DataRefNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OU1YFTEei_45w8CLKxjQ" name="newStructureMemberRef">
+        <target xmi:type="it.univaq.wsn.sa.collorg:StructureMemberRef" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.2"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:StructureMemberRef" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.2"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OU1oFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="252,175,62">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='StructureMemberRefNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='StructureMemberRefNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OU14FTEei_45w8CLKxjQ" name="newArithmeticExpr">
+        <target xmi:type="it.univaq.wsn.sa.collorg:ArithmeticExpr" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.3"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:ArithmeticExpr" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.3"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OU2IFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="252,175,62">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='ArithmeticExprNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='ArithmeticExprNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OU2YFTEei_45w8CLKxjQ" name="newBooleanExpr">
+        <target xmi:type="it.univaq.wsn.sa.collorg:BooleanExpr" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.4"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:BooleanExpr" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.4"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OU2oFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="138,226,52">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='BooleanExprNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='BooleanExprNode']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p9OU24FTEei_45w8CLKxjQ" name="newRelationalExpr">
+        <target xmi:type="it.univaq.wsn.sa.collorg:RelationalExpr" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.5"/>
+        <semanticElements xmi:type="it.univaq.wsn.sa.collorg:RelationalExpr" href="SoftwareArchitecture.xmi#//@links.0/@conditionExp.5"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p9OU3IFTEei_45w8CLKxjQ" labelAlignment="LEFT" labelPosition="node" color="136,136,136">
+          <description xmi:type="style:BundledImageDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='RelationalExprNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@containerMappings[name='LinkContainer']/@subNodeMappings[name='RelationalExprNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_p9OU3YFTEei_45w8CLKxjQ" sourceNode="_p9OUoIFTEei_45w8CLKxjQ" targetNode="_p9NtoIFTEei_45w8CLKxjQ">
+      <target xmi:type="it.univaq.wsn.sa.collorg:TimerFired" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.20"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_p9OU3oFTEei_45w8CLKxjQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_p9OU34FTEei_45w8CLKxjQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Behavior%20Link']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_p9OU4IFTEei_45w8CLKxjQ" sourceNode="_p9NthYFTEei_45w8CLKxjQ" targetNode="_p9OUwIFTEei_45w8CLKxjQ">
+      <target xmi:type="it.univaq.wsn.sa.collorg:OutMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.0/@ports.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_p9OU4YFTEei_45w8CLKxjQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_p9OU4oFTEei_45w8CLKxjQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_p9OU44FTEei_45w8CLKxjQ" sourceNode="_p9Nth4FTEei_45w8CLKxjQ" targetNode="_p9OUyoFTEei_45w8CLKxjQ">
+      <target xmi:type="it.univaq.wsn.sa.collorg:OutMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.0/@ports.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_p9OU5IFTEei_45w8CLKxjQ" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_p9OU5YFTEei_45w8CLKxjQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Connection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_p9OU5oFTEei_45w8CLKxjQ" sourceNode="_p9NtjYFTEei_45w8CLKxjQ" targetNode="_p9OUp4FTEei_45w8CLKxjQ">
+      <target xmi:type="it.univaq.wsn.sa.collorg:ExitMode" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_p9OU54FTEei_45w8CLKxjQ" size="2" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Mode%20Transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_p9OU6IFTEei_45w8CLKxjQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Mode%20Transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_p9OU6YFTEei_45w8CLKxjQ" sourceNode="_p9OUwIFTEei_45w8CLKxjQ" targetNode="_p9OUxYFTEei_45w8CLKxjQ">
+      <target xmi:type="it.univaq.wsn.sa.collorg:InMessagePort" href="SoftwareArchitecture.xmi#//@SAElements.1/@ports.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_p9OU6oFTEei_45w8CLKxjQ" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_p9OU64FTEei_45w8CLKxjQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Receive%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_p9OU7IFTEei_45w8CLKxjQ" sourceNode="_p9NtnIFTEei_45w8CLKxjQ" targetNode="_p9NthYFTEei_45w8CLKxjQ">
+      <target xmi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_p9OU7YFTEei_45w8CLKxjQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_p9OU7oFTEei_45w8CLKxjQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_p9OU74FTEei_45w8CLKxjQ" sourceNode="_p9NtnIFTEei_45w8CLKxjQ" targetNode="_p9Nth4FTEei_45w8CLKxjQ">
+      <target xmi:type="it.univaq.wsn.sa.collorg:UnicastSendMessage" href="SoftwareArchitecture.xmi#//@SAElements.0/@modes.0/@behaviouralElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_p9OU8IFTEei_45w8CLKxjQ" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_p9OU8YFTEei_45w8CLKxjQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer/@edgeMappings[name='Send%20Message%20Port']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_p9OU8oFTEei_45w8CLKxjQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/Patterns_CollectOrganize.design/description/Patterns_CollectOrganize.odesign#//@ownedViewpoints[name='PatternViewpoint']/@ownedRepresentations[name='SADiagram']/@defaultLayer"/>
+    <target xmi:type="it.univaq.wsn.sa.collorg:SoftwareArchitecture" href="SoftwareArchitecture.xmi#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

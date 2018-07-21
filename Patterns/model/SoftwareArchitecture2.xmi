@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<it.univaq.wsn.sa.synut:SoftwareArchitecture
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:it.univaq.wsn.sa.synut="http://it.univaq.wsn.sa.synut"
+    xsi:schemaLocation="http://it.univaq.wsn.sa.synut SA.ecore">
+  <SAElements
+      xsi:type="it.univaq.wsn.sa.synut:Component"
+      name="a"/>
+  <SAElements
+      xsi:type="it.univaq.wsn.sa.synut:Component"
+      name="a"/>
+  <SAElements
+      xsi:type="it.univaq.wsn.sa.synut:Component"
+      name="a bcd"/>
+</it.univaq.wsn.sa.synut:SoftwareArchitecture>
